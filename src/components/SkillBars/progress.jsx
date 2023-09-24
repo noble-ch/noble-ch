@@ -18,19 +18,19 @@ const skillData = [
 		id: 2,
 		lang_name: "Django",
 		icon: "./images/django.svg",
-		exp_level: "Intermediate"
+		exp_level: "Advanced"
 	},
 	{
 		id: 3,
 		lang_name: "JavaScript",
-		icon: "./images/javascript.png",
+		icon: "./images/javascript.svg",
 		exp_level: "Intermediate"
 	},
 	{
 		id: 4,
 		lang_name: "React",
 		icon: "./images/react.svg",
-		exp_level: "Intermediate"
+		exp_level: "Advanced"
 	},
 	{
 		id: 5,
@@ -41,25 +41,7 @@ const skillData = [
   {
 		id: 6,
 		lang_name: "Mysql",
-		icon: "./images/python.gif",
-		exp_level: "Intermediate"
-	},
-  {
-		id: 7,
-		lang_name: "C",
-		icon: "./images/python.gif",
-		exp_level: "Intermediate"
-	},
-  {
-		id: 8,
-		lang_name: "C++",
-		icon: "./images/python.gif",
-		exp_level: "Intermediate"
-	},
-  {
-		id: 9,
-		lang_name: "JavaScript",
-		icon: "./images/python.gif",
+		icon: "./images/mysql.svg",
 		exp_level: "Intermediate"
 	},
 ];
