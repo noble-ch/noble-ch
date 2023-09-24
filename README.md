@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm noble</h1>
 <h3 align="center">A passionate web developer from Ethiopia</h3>
 
-- 🔭 I’m currently working on [faya e-commerce website](https://github.com/Noble-ch/onlineShop)
-
 - 🌱 I’m currently learning **computer science in Adama Science and Technology University**
 
 - 📫 How to reach me **nobledarm@gmail.com**
