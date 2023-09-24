@@ -1,53 +1,59 @@
 import "./Services.css";
-import { useGetServicesQuery } from "../../Api/api";
-import { useEffect, useState } from "react";
+import React from "react";
+
+const serviceData = [
+	{
+		id: 1,
+		service_name: "Web Development",
+		service_description:
+			"Custom web application development using modern technologies.",
+		icon_image: "web-development-icon.png",
+		shadow_icon: "fa fa-web"
+	},
+	{
+		id: 2,
+		service_name: "Mobile App Development",
+		service_description:
+			"Cross-platform mobile app development for iOS and Android.",
+		icon_image: "mobile-app-icon.png",
+		shadow_icon: "fa fa-mobile"
+	}
+	// Add more services as needed
+];
 
 const Services = () => {
-  const { data: services, isFetching } = useGetServicesQuery();
-  const [servicesDetails, setServicesDetails] = useState(services);
-  const img_300 = "http://drive.google.com/uc?id=";
 
-  useEffect(() => {
-    setServicesDetails(services);
-    console.log(servicesDetails);
-  }, [servicesDetails, services]);
-  if (isFetching) return "loading";
+	return (
+		<>
+			<section id="services">
+				<div className="service-container">
+					<div className="service-title">
+						<h2>What Service I Offer You</h2>
+						<h3>Services</h3>
+					</div>
 
-  return (
-    <>
-      <section id="services">
-        <div className="service-container">
-          <div className="service-title">
-            <h2>What Service i Offer you</h2>
-
-            <h3>Services</h3>
-          </div>
-
-          <div className="service-row">
-            {services &&
-              services.map((service) => (
-                <div
-                  className=" my-service"
-                  key={service.id}
-                  data-aos="zoom-in-up"
-                  data-aos-duration="1500"
-                >
-                  <div className="ser-back">
-                    <img src={`${img_300}${service.icon_image}`} alt="" />
-                  </div>
-                  <h4 className="web">{service.service_name}</h4>
-                  <p className="service-info">{service.service_description}</p>
-                  {/* <h6 className="learn-more">{service.learn_more}</h6> */}
-                  <div class="shadow-icon">
-                    <i class={service.shadow_icon}></i>
-                  </div>
-                </div>
-              ))}
-          </div>
-        </div>
-      </section>
-    </>
-  );
+					<div className="service-row">
+						{serviceData.map((service) => (
+							<div
+								className="my-service"
+								key={service.id}
+								data-aos="zoom-in-up"
+								data-aos-duration="1500">
+								<div className="ser-back">
+									<img src={service.icon_image} alt="" />
+								</div>
+								<h4 className="web">{service.service_name}</h4>
+								<p className="service-info">{service.service_description}</p>
+								<div className="shadow-icon">
+									<i className={service.shadow_icon}></i>
+								</div>
+							</div>
+						))}
+					</div>
+				</div>
+			</section>
+		</>
+	);
 };
 
 export default Services;
