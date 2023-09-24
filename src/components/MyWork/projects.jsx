@@ -7,21 +7,21 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 const projectData = [
 	{
 		id: 1,
-		Project_title: "Project 1",
-		Project_info: "Description of Project 1",
-		about_avatar: "./images/download.png",
+		Project_title: "Youtube-clone",
+		Project_info: "clone with pure html,css,javascript",
+		about_avatar: "./images/youtube-clone.jpeg",
 
-		language_used: "JavaScript",
-		demo_link: "https://demo1.com",
-		project_link: "https://github.com/project1"
+		language_used: "html,css",
+		demo_link: "https://youtube-clone-pied-theta.vercel.app/",
+		project_link: "https://github.com/noble-ch/Youtube-Clone.git"
 	},
 	{
 		id: 2,
-		Project_title: "Project 2",
-		Project_info: "Description of Project 2",
+		Project_title: "e-commerce",
+		Project_info: "a fully interactive e-commerce website with chapa payment api integrated and much more",
 		about_avatar: "./images/download.png",
 
-		language_used: "React",
+		language_used: "React , django",
 		demo_link: "https://demo2.com",
 		project_link: "https://github.com/project2"
 	}
@@ -74,12 +74,7 @@ const Projects = () => {
 					{projectData.map((details) => (
 						<div className="project" data-aos="fade-up" key={details.id}>
 							<div className="project-img">
-								{/* Use details.about_avatar for the image source */}
-								<img
-									src={details.about_avatareta}
-									alt=""
-									className="work-img"
-								/>
+								<img src={details.about_avatar} alt="" className="work-img" />
 							</div>
 							<div className="date-posted">
 								<div className="who-post">
