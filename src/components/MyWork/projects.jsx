@@ -9,7 +9,7 @@ const projectData = [
 		id: 1,
 		Project_title: "Project 1",
 		Project_info: "Description of Project 1",
-		about_avatar: "./Services/Programmer-pana.png",
+		about_avatar: "./images/download.png",
 
 		language_used: "JavaScript",
 		demo_link: "https://demo1.com",
@@ -19,7 +19,8 @@ const projectData = [
 		id: 2,
 		Project_title: "Project 2",
 		Project_info: "Description of Project 2",
-		about_avatar: "../Services/Programmer-pana.svg",
+		about_avatar: "./images/download.png",
+
 		language_used: "React",
 		demo_link: "https://demo2.com",
 		project_link: "https://github.com/project2"
@@ -74,7 +75,11 @@ const Projects = () => {
 						<div className="project" data-aos="fade-up" key={details.id}>
 							<div className="project-img">
 								{/* Use details.about_avatar for the image source */}
-								<img src={details.about_avatar} alt="" className="work-img" />
+								<img
+									src={details.about_avatareta}
+									alt=""
+									className="work-img"
+								/>
 							</div>
 							<div className="date-posted">
 								<div className="who-post">

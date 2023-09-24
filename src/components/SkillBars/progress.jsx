@@ -10,16 +10,58 @@ var nav = $("body");
 const skillData = [
 	{
 		id: 1,
-		lang_name: "JavaScript",
-		icon: "javascript.png",
+		lang_name: "Pyhton",
+		icon: "./images/python.svg",
 		exp_level: "Intermediate"
 	},
 	{
 		id: 2,
+		lang_name: "Django",
+		icon: "./images/django.svg",
+		exp_level: "Intermediate"
+	},
+	{
+		id: 3,
+		lang_name: "JavaScript",
+		icon: "./images/javascript.png",
+		exp_level: "Intermediate"
+	},
+	{
+		id: 4,
 		lang_name: "React",
-		icon: "react.png",
+		icon: "./images/react.svg",
+		exp_level: "Intermediate"
+	},
+	{
+		id: 5,
+		lang_name: "Java",
+		icon: "./images/java.svg",
 		exp_level: "Advanced"
-	}
+	},
+  {
+		id: 6,
+		lang_name: "Mysql",
+		icon: "./images/python.gif",
+		exp_level: "Intermediate"
+	},
+  {
+		id: 7,
+		lang_name: "C",
+		icon: "./images/python.gif",
+		exp_level: "Intermediate"
+	},
+  {
+		id: 8,
+		lang_name: "C++",
+		icon: "./images/python.gif",
+		exp_level: "Intermediate"
+	},
+  {
+		id: 9,
+		lang_name: "JavaScript",
+		icon: "./images/python.gif",
+		exp_level: "Intermediate"
+	},
 ];
 
 if (nav.length) {
@@ -44,9 +86,7 @@ if (nav.length) {
 const Progress = () => {
 	const { data: langIcons, isFetching } = useGetLanguagesIconsQuery();
 
-
-	useEffect(() => {
-	}, [langIcons]);
+	useEffect(() => {}, [langIcons]);
 
 	if (isFetching) return "loading";
 
