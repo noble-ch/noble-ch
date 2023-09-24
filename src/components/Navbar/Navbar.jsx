@@ -18,7 +18,7 @@ const Navbar = () => {
                   src="https://code.google.com/images/developers.png"
                   alt=""
                 />
-                Pro.dev <span className="blink"> _</span>
+                Noble <span className="blink"> _</span>
               </h5>
               <nav className="nav-menu  mainMenu">
                 <ul>
