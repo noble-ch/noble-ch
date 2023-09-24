@@ -18,7 +18,8 @@ const projectData = [
 	{
 		id: 2,
 		Project_title: "e-commerce",
-		Project_info: "a fully interactive e-commerce website with chapa payment api integrated and much more",
+		Project_info:
+			"a fully interactive e-commerce website with chapa payment api integrated and much more",
 		about_avatar: "./images/download.png",
 
 		language_used: "React , django",
@@ -66,7 +67,7 @@ const Projects = () => {
 	return (
 		<div className="mywork " id="work">
 			<div className="mywork-title">
-				<h2>Check Out My React Projects</h2>
+				<h2>Check Out Some Of My Projects</h2>
 				<h3>My Work</h3>
 			</div>
 			<div className="project-row">
