@@ -41,7 +41,9 @@
   border-radius: 10px;
   font-size: 15px;
   margin-top: 30px;
+  color: white;
 }
+
 .reachme-title {
   width: 100%;
 }
@@ -69,8 +71,7 @@
   font-size: 15px;
   line-height: 30px;
 }
-.contact-info {
-}
+
 .contact-info {
   display: flex;
   cursor: pointer;
@@ -150,8 +151,7 @@
     padding: 10px;
   }
 }
-.light .contact-info {
-}
+
 .light .email-me input {
   color: #000000;
 }

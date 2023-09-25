@@ -1,6 +1,5 @@
-import React, { useEffect, useRef, useState } from "react";
+import  { useRef, useState } from "react";
 import "./Email.css";
-import { useGetContactsQuery } from "../../Api/api";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
 
@@ -24,6 +23,10 @@ const contactData = [
 		icon: "fa fa-map-marker"
 	}
 ];
+const serviceId = process.env.REACT_APP_SERVICE_ID;
+const templateId = process.env.REACT_APP_TEMPLATE_ID;
+const userId = process.env.REACT_APP_USER_ID;
+// const recaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
 const Email = (e) => {
 	const form = useRef();
@@ -31,14 +34,12 @@ const Email = (e) => {
 	const [recaptchaValue, setRecaptchaValue] = useState("");
 
 	const handleRecaptchaChange = (value) => {
-		// Store the reCAPTCHA value in state or perform any required actions.
-		// For example, you can store it in a state variable.
 		setRecaptchaValue(value);
 	};
 	const sendEmail = (e) => {
 		e.preventDefault();
 		if (!recaptchaValue) {
-			console.error("faild recaptcha");
+			console.error("Failed reCAPTCHA");
 			return;
 		}
 
@@ -47,8 +48,9 @@ const Email = (e) => {
 			user_email: e.target.user_email.value,
 			subject: e.target.subject.value,
 			message: e.target.message.value,
-			service_id: "service_afexzpi",
-			template_id: "template_6hdk66x"
+			"g-recaptcha-response": recaptchaValue,
+			service_id: serviceId,
+			template_id:  templateId 
 		};
 
 		emailjs
@@ -56,7 +58,7 @@ const Email = (e) => {
 				templateParams.service_id,
 				templateParams.template_id,
 				templateParams,
-				process.env.REACT_APP_USER_ID
+				userId 
 			)
 			.then(
 				(result) => {
@@ -135,7 +137,7 @@ const Email = (e) => {
 										rows="8"
 										placeholder="Your Message"></textarea>
 									<ReCAPTCHA
-										sitekey="6LcRWVIoAAAAAPhDgIZtILqH0C_s-cE9bzMJohGb"
+										sitekey="6Lcvh1IoAAAAAPKT2jxy74Z4liO7JySsYRPYxwY5"
 										onChange={handleRecaptchaChange}
 									/>
 

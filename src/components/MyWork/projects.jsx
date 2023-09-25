@@ -26,8 +26,8 @@ const projectData = [
 		demo_link: "https://demo2.com",
 		project_link: "https://github.com/noble-ch/onlineShop"
 	},
-		{
-		id: 2,
+	{
+		id: 3,
 		Project_title: "e-commerce",
 		Project_info:
 			"a fully interactive e-commerce website with chapa payment api integrated and much more",
@@ -102,7 +102,7 @@ const Projects = () => {
 										target="_blank"
 										rel="noopener noreferrer">
 										<h6 className="learnmore">
-											<i class="fa fa-laptop" aria-hidden="true"></i>&nbsp; Live
+											<i className="fa fa-laptop" aria-hidden="true"></i>&nbsp; Live
 											Demo
 										</h6>
 									</a>
@@ -111,7 +111,7 @@ const Projects = () => {
 										target="_blank"
 										rel="noopener noreferrer">
 										<h6 className="learnmore">
-											<i class="fa fa-github" aria-hidden="true"></i> &nbsp;
+											<i className="fa fa-github" aria-hidden="true"></i> &nbsp;
 											Source Code
 										</h6>
 									</a>

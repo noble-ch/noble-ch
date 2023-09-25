@@ -1,6 +1,4 @@
 import "./progress.css";
-import { useGetLanguagesIconsQuery } from "../../Api/api";
-import { useEffect } from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 import $ from "jquery";
@@ -66,11 +64,6 @@ if (nav.length) {
 }
 
 const Progress = () => {
-	const { data: langIcons, isFetching } = useGetLanguagesIconsQuery();
-
-	useEffect(() => {}, [langIcons]);
-
-	if (isFetching) return "loading";
 
 	const responsive = {
 		0: {

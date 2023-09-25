@@ -11,7 +11,6 @@ const introData = [
 		avatar_img: "image_url_1.jpg"
 	},
 
-	// Add more data objects as needed
 ];
 
 const contactDetails = [
@@ -90,12 +89,12 @@ const Intro = () => {
 										href={`mailto:${detail.hireMe_link}`}
 										className="contactMe">
 										<button className="contact-me">
-											Hire me <i class="bx bx-send "></i>
+											Hire me <i className="bx bx-send "></i>
 										</button>
 									</a>
 								</div>
 								<div
-									class="intro-contact"
+									className="intro-contact"
 									data-aos="fade-up"
 									data-aos-duration="1800">
 									<span>Follow Me:</span>
