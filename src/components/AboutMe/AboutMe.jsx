@@ -56,7 +56,7 @@ const AboutMe = () => {
 								</div>
 							</div>
 
-							<div className="itscv">
+							{/* <div className="itscv">
 								<a
 									href="https://drive.google.com/file/d/127RCSy1lUZE2sS8IgkxxPcUqbw1rYMOR/view"
 									download="RESUME.pdf"
@@ -66,7 +66,7 @@ const AboutMe = () => {
 										Download Cv <i class="bx bx-download"></i>
 									</button>
 								</a>
-							</div>
+							</div> */}
 						</div>
 					</div>
 				</div>
