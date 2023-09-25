@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import "./Email.css";
 import { useGetContactsQuery } from "../../Api/api";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 const contactData = [
 	{
@@ -22,19 +23,39 @@ const contactData = [
 		contact_info: "Adama, Ethiopia",
 		icon: "fa fa-map-marker"
 	}
-	// Add more contact information as needed
 ];
 
 const Email = (e) => {
 	const form = useRef();
+
+	const [recaptchaValue, setRecaptchaValue] = useState("");
+
+	const handleRecaptchaChange = (value) => {
+		// Store the reCAPTCHA value in state or perform any required actions.
+		// For example, you can store it in a state variable.
+		setRecaptchaValue(value);
+	};
 	const sendEmail = (e) => {
 		e.preventDefault();
+		if (!recaptchaValue) {
+			console.error("faild recaptcha");
+			return;
+		}
+
+		const templateParams = {
+			user_name: e.target.user_name.value,
+			user_email: e.target.user_email.value,
+			subject: e.target.subject.value,
+			message: e.target.message.value,
+			service_id: "service_afexzpi",
+			template_id: "template_6hdk66x"
+		};
 
 		emailjs
-			.sendForm(
-				process.env.REACT_APP_SERVICE_ID,
-				process.env.REACT_APP_TEMPLATE_ID,
-				form.current,
+			.send(
+				templateParams.service_id,
+				templateParams.template_id,
+				templateParams,
 				process.env.REACT_APP_USER_ID
 			)
 			.then(
@@ -47,14 +68,7 @@ const Email = (e) => {
 			);
 		e.target.reset();
 	};
-	const { data: contacts, isFetching } = useGetContactsQuery();
 
-	const [contactsDetails, setContactDetails] = useState(contacts);
-	// const img_300 = "http://127.0.0.1:8000";
-	useEffect(() => {
-		setContactDetails(contacts);
-	}, [contactsDetails, contacts]);
-	if (isFetching) return "loading";
 	return (
 		<>
 			<div className="reachme-container">
@@ -120,6 +134,11 @@ const Email = (e) => {
 										cols="60"
 										rows="8"
 										placeholder="Your Message"></textarea>
+									<ReCAPTCHA
+										sitekey="6LcRWVIoAAAAAPhDgIZtILqH0C_s-cE9bzMJohGb"
+										onChange={handleRecaptchaChange}
+									/>
+
 									<button className="hire-btn" type="submit">
 										Send Message
 									</button>
