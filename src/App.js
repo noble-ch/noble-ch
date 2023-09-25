@@ -35,6 +35,7 @@ function App() {
 	return (
 		<>
 			<BrowserRouter>
+			
 				{/* <div id="preloader">
 					<h2 className="name-load  animate-charcter">l O A D I N G</h2>
 				</div> */}

@@ -278,3 +278,54 @@ section > div {
     transform: rotate(360deg);
   }
 }
+
+
+
+.google-translate {
+	position: relative;
+
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+	display: none !important;
+
+	z-index: -10000001;
+}
+#goog-gt-tt {
+	display: none !important;
+}
+
+.goog-te-gadget-simple {
+	background-color: transparent !important;
+	border: none !important;
+	color: lightslategray !important;
+	border-radius: 0.2rem;
+	height: 1.4rem;
+	margin-top: 5px;
+	display: flex;
+	align-self: end;
+	font-size: 2pt;
+	cursor: pointer;
+
+}
+.VIpgJd-ZVi9od-xl07Ob-lTBxed {
+	text-decoration: none;
+	color: #9a9dcc !important;
+	white-space: nowrap;
+	margin-left: 4px;
+	margin-right: 4px;
+  display: flex;
+  flex-wrap: nowrap;
+
+}
+
+.goog-te-gadget-icon {
+	border-radius: 2rem;
+	margin-left: 2px;
+	margin-right: 2px;
+	width: 19px;
+	height: 19px;
+	border: none;
+	vertical-align: middle;
+  display: none !important;
+}
