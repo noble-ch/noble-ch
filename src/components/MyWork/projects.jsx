@@ -20,11 +20,22 @@ const projectData = [
 		Project_title: "e-commerce",
 		Project_info:
 			"a fully interactive e-commerce website with chapa payment api integrated and much more",
-		about_avatar: "./images/download.png",
+		about_avatar: "./images/ecomerece.jpeg",
 
 		language_used: "React , django",
 		demo_link: "https://demo2.com",
-		project_link: "https://github.com/project2"
+		project_link: "https://github.com/noble-ch/onlineShop"
+	},
+		{
+		id: 2,
+		Project_title: "e-commerce",
+		Project_info:
+			"a fully interactive e-commerce website with chapa payment api integrated and much more",
+		about_avatar: "./images/ecomerece.jpeg",
+
+		language_used: "React , django",
+		demo_link: "https://demo2.com",
+		project_link: "https://github.com/noble-ch/onlineShop"
 	}
 ];
 const Projects = () => {
