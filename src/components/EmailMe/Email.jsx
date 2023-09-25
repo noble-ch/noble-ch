@@ -1,4 +1,4 @@
-import  { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import "./Email.css";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -23,9 +23,9 @@ const contactData = [
 		icon: "fa fa-map-marker"
 	}
 ];
-const serviceId = process.env.REACT_APP_SERVICE_ID;
-const templateId = process.env.REACT_APP_TEMPLATE_ID;
-const userId = process.env.REACT_APP_USER_ID;
+const serviceId = "service_afexzpi";
+const templateId = "template_6hdk66x";
+const userId = "E87CA9Q99g3v_oPLQ";
 // const recaptchaSiteKey = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
 
 const Email = (e) => {
@@ -50,7 +50,7 @@ const Email = (e) => {
 			message: e.target.message.value,
 			"g-recaptcha-response": recaptchaValue,
 			service_id: serviceId,
-			template_id:  templateId 
+			template_id: templateId
 		};
 
 		emailjs
@@ -58,7 +58,7 @@ const Email = (e) => {
 				templateParams.service_id,
 				templateParams.template_id,
 				templateParams,
-				userId 
+				userId
 			)
 			.then(
 				(result) => {
