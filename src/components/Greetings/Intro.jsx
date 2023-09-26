@@ -83,7 +83,7 @@ const Intro = () => {
 										{detail.par_inro}
 									</p> */}
 								</div>
-								<div className='myinfo' ><Hero/></div>
+								<div data-aos="fade-down" data-aos-duration="1800" className='myinfo' ><Hero/></div>
 								
 								<div
 									className="intro-btns"

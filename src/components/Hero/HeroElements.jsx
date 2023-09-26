@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import styled, { keyframes } from "styled-components";
 
 export const HeroContainer = styled.div`

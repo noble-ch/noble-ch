@@ -20,6 +20,10 @@
 	font-family: "Mr Dafoe", cursive;
 	font-size: 20px !important;
 }
+
+.logo{
+	background: #060127;
+}
 #header .logo:hover {
 	text-decoration: underline !important;
 }

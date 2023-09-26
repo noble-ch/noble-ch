@@ -15,9 +15,9 @@ const Navbar = () => {
 					<div className="navi">
 						<div className="col-xl-12 d-flex align-items-center lefty">
 							<h5 className="ld-flex mr-auto devman">
-								<div className="">
+								<div className=" logo mr-2 ">
 									<img
-										className="logo mr-2"
+										className=" m-2"
 										src="./images/noble-logo.png"
 										alt=""
 									/>

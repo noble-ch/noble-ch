@@ -3,6 +3,8 @@ import { HeroContainer, HeroWrapper, HeroLeft } from "./HeroElements";
 import { TypeAnimation } from "react-type-animation";
 import ScrollAnimation from "react-animate-on-scroll";
 
+import "../Greetings/Intro.css";
+
 function Hero() {
 	const [showSubtitle, setShowSubtitle] = useState(false);
 
@@ -20,7 +22,7 @@ function Hero() {
 								repeat={0}
 							/>
 							{showSubtitle && (
-								<TypeAnimation
+								<TypeAnimation className="myinfo"
 									cursor={true}
 									sequence={[
 										500,
