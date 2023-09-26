@@ -17,6 +17,14 @@ const serviceData = [
 			"Cross-platform mobile app development for iOS and Android.",
 		icon_image: "mobile-app-icon.png",
 		shadow_icon: "fa fa-mobile"
+	},
+	{
+		id: 2,
+		service_name: "Api Integration",
+		service_description:
+			"integrate with variety of apis, like google,OpenAi,Spotify,automated email service",
+		icon_image: "mobile-app-icon.png",
+		shadow_icon: "fa fa-mobile"
 	}
 	// Add more services as needed
 ];

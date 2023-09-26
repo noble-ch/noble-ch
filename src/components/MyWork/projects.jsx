@@ -8,7 +8,7 @@ const projectData = [
 	{
 		id: 1,
 		Project_title: "Youtube-clone",
-		Project_info: "clone with pure html,css,javascript",
+		Project_info: "a front end youtube interface with pure html,css,javascript",
 		about_avatar: "./images/youtube-clone.jpeg",
 
 		language_used: "html,css",
@@ -28,10 +28,20 @@ const projectData = [
 	},
 	{
 		id: 3,
-		Project_title:
-			" a search enginge based on document Analysis and Ranking_system",
+		Project_title: " tik-tak toe against ai",
 		Project_info:
-			"The Word Frequency Counter GUI is a Java program that provides a graphical user interface for analyzing text files and calculating word frequencies and TF-IDF values. The program allows users to choose text files, preprocess them by removing stopwords, stemming the words. Users can also search for specific terms and view the search results ranked by cosine similarity. ",
+			"It is a game where you can play against an AI opponent that uses the minimax algorithm to make its moves. also have multiplayer option where users can play against each other ",
+		about_avatar: "./images/tik-tak-toe-game.jpeg",
+
+		language_used: "python",
+		demo_link: "https://github.com/noble-ch/tik-tak_toe_game",
+		project_link: "https://github.com/noble-ch/tik-tak_toe_game"
+	},
+	{
+		id: 4,
+		Project_title: "document Analysis and Ranking system",
+		Project_info:
+			"The Word Frequency Counter GUI is a Java program that provides a graphical user interface for analyzing files and calculating word frequencies and TF-IDF values.Users can also search for specific terms and view the search results ranked by cosine similarity. ",
 		about_avatar: "./images/eecomerece.jpeg",
 
 		language_used: "java",
@@ -39,17 +49,6 @@ const projectData = [
 			"https://github.com/noble-ch/Document_Analysis_and_Ranking_System",
 		project_link:
 			"https://github.com/noble-ch/Document_Analysis_and_Ranking_System"
-	},
-	{
-		id: 4,
-		Project_title: " tik-tak toe against ai",
-		Project_info:
-			"It is a game where you can play against an AI opponent that uses the minimax algorithm to make its moves. also have multiplayer option where users can play against each other ",
-		about_avatar: "./images/eecomerece.jpeg",
-
-		language_used: "python",
-		demo_link: "https://github.com/noble-ch/tik-tak_toe_game",
-		project_link: "https://github.com/noble-ch/tik-tak_toe_game"
 	}
 ];
 const Projects = () => {
