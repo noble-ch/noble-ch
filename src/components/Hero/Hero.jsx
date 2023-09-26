@@ -15,7 +15,7 @@ function Hero() {
 							<TypeAnimation
 								cursor={false}
 								sequence={[() => setShowSubtitle(true)]}
-								speed={{ type: "keyStrokeDelayInMs", value: 10 }}
+								speed={{ type: "keyStrokeDelayInMs", value: 100 }}
 								wrapper="h1"
 								repeat={0}
 							/>
@@ -25,9 +25,6 @@ function Hero() {
 									sequence={[
 										500,
 										"A Full-Stack Developer.",
-										1000,
-										"A BCIT graduate.",
-										// 'I design and code beautifully simple things, and I love what I do.',
 										1000,
 										"A problem solver.",
 										1000,
