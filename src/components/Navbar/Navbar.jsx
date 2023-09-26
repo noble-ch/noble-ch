@@ -15,11 +15,15 @@ const Navbar = () => {
 					<div className="navi">
 						<div className="col-xl-12 d-flex align-items-center lefty">
 							<h5 className="ld-flex mr-auto devman">
-								<img
-									src="./images/noble-logo.png"
-									alt=""
-								/>
-								<span className="noble">N O B L E</span> <span className="blink">_</span>
+								<div className="">
+									<img
+										className="logo mr-2"
+										src="./images/noble-logo.png"
+										alt=""
+									/>
+								</div>
+								<span className="noble">N O B L E</span>{" "}
+								<span className="blink">_</span>
 							</h5>
 
 							<nav className="nav-menu  mainMenu">
@@ -48,7 +52,7 @@ const Navbar = () => {
 										<a href="#contact">Contact</a>
 									</li>
 									<li data-aos="fade-down" data-aos-duration="2100">
-										<div  className=" translate">
+										<div className=" translate">
 											<GoogleTranslateComponent />
 										</div>
 									</li>

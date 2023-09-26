@@ -1,4 +1,5 @@
 import decor3 from "../../images/decoration/Group-31.png";
+import Hero from '../Hero/Hero'
 
 import "./Intro.css";
 
@@ -68,19 +69,22 @@ const Intro = () => {
 										data-aos-duration="1600">
 										Hello! my name is
 									</h3>
+									
 									<h3
 										className="job  text-animate notranslate"
 										data-aos="fade-down"
 										data-aos-duration="1700">
 										{detail.name}
 									</h3>
-									<p
+									{/* <p
 										className="myinfo"
 										data-aos="fade-down"
 										data-aos-duration="1800">
 										{detail.par_inro}
-									</p>
+									</p> */}
 								</div>
+								<div className='myinfo' ><Hero/></div>
+								
 								<div
 									className="intro-btns"
 									data-aos="fade-up"
@@ -88,7 +92,7 @@ const Intro = () => {
 									<a
 										href={`mailto:${detail.hireMe_link}`}
 										className="contactMe">
-										<button className="contact-me">
+										<button className="contact-me mx-auto">
 											Hire me <i className="bx bx-send "></i>
 										</button>
 									</a>
@@ -99,7 +103,7 @@ const Intro = () => {
 									data-aos-duration="1800">
 									<span>Follow Me:</span>
 									<ul>
-										<li>
+										<li className=' d-flex justify-content-sm-center justify-content-md-start    '>
 											{contactDetails.map((data1) => (
 												<a
 													href={data1.link}

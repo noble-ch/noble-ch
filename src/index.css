@@ -23,9 +23,9 @@
 	--color-button: linear-gradient(to right, deeppink 0%, coral 100%);
 	--color-special-color: #eff30e;
 	--color-button-hover: #f3390b;
-  --color-button-disabled: hsla(12, 100%, 50%, 0.692);
+	--color-button-disabled: hsla(12, 100%, 50%, 0.692);
 
-  --color-icon-hover:linear-gradient(to right, tomato 0%, gold 100%);
+	--color-icon-hover: linear-gradient(to right, tomato 0%, gold 100%);
 
 	--color-background-2: #01102c;
 	--color-icon-background: #464a68;
@@ -159,8 +159,8 @@ section > div {
 	) !important;
 	--btn-background: linear-gradient(
 		90deg,
-		rgba(194, 120, 251, 1) 0%,
-		rgba(249, 115, 255, 1) 100%
+		rgb(90, 17, 207) 0%,
+		rgb(146, 79, 223) 100%
 	);
 	--color-special-color: var(--color-title);
 	--color-background-2: var(--color-background);
@@ -200,6 +200,13 @@ section > div {
 }
 .light h2 {
 	color: var(--color-second-title) !important;
+}
+
+.logo{
+  /* background:  #080c1a; */
+  border-radius: 100px ;
+
+  
 }
 
 /* Preloader styles */
@@ -281,19 +288,25 @@ section > div {
 		transform: rotate(360deg);
 	}
 }
-
+body {
+	position: relative;
+	top: 0px !important;
+	height: 80vh !important;
+	width: 100vw !important;
+}
 .google-translate {
 	position: relative;
-	padding: 0px;
-	margin: 0px;
 }
 
 .VIpgJd-ZVi9od-ORHb-OEVmcd {
+	border: solid red !important;
+
 	display: none !important;
 	z-index: -10000001;
 }
 #goog-gt-tt {
 	display: none !important;
+	border: solid red !important;
 }
 
 .goog-te-gadget-simple {
@@ -317,7 +330,10 @@ section > div {
 	flex-wrap: nowrap !important;
 }
 
-
 .goog-te-gadget-icon {
 	display: none !important;
+}
+
+.borders{
+  border: solid red;
 }
