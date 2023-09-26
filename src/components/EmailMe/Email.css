@@ -43,7 +43,11 @@
   margin-top: 30px;
   color: white;
 }
-
+.hire-btn:disabled{
+  background: var(--color-button-disabled);
+  color: #8a8181;
+  cursor:not-allowed;
+}
 .reachme-title {
   width: 100%;
 }

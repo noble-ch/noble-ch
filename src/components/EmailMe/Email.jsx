@@ -32,17 +32,18 @@ const Email = (e) => {
 	const form = useRef();
 
 	const [recaptchaValue, setRecaptchaValue] = useState("");
+	const [message, setMessage] = useState("Please complete the reCAPTCHA.");
 
 	const handleRecaptchaChange = (value) => {
 		setRecaptchaValue(value);
+		setMessage("");
 	};
 	const sendEmail = (e) => {
 		e.preventDefault();
 		if (!recaptchaValue) {
-			console.error("Failed reCAPTCHA");
 			return;
 		}
-
+		
 		const templateParams = {
 			user_name: e.target.user_name.value,
 			user_email: e.target.user_email.value,
@@ -63,9 +64,11 @@ const Email = (e) => {
 			.then(
 				(result) => {
 					console.log(result.text);
+					setMessage("Message sent successfully!" + result.text);
 				},
 				(error) => {
 					console.log(error.text);
+					setMessage("Message sending failed. Please try again.");
 				}
 			);
 		e.target.reset();
@@ -110,6 +113,7 @@ const Email = (e) => {
 										type="text"
 										name="user_name"
 										id=""
+										required="true"
 										placeholder="Enter Your Name"
 									/>
 								</div>
@@ -118,6 +122,7 @@ const Email = (e) => {
 										type="email"
 										name="user_email"
 										id=""
+										required="true"
 										placeholder="Enter Your Email"
 									/>
 								</div>
@@ -126,6 +131,7 @@ const Email = (e) => {
 										type="text"
 										name="subject"
 										id=""
+										required="true"
 										placeholder="Enter Subject"
 									/>
 								</div>
@@ -135,16 +141,21 @@ const Email = (e) => {
 										id=""
 										cols="60"
 										rows="8"
+										required="true"
 										placeholder="Your Message"></textarea>
 									<ReCAPTCHA
 										sitekey="6Lcvh1IoAAAAAPKT2jxy74Z4liO7JySsYRPYxwY5"
 										onChange={handleRecaptchaChange}
 									/>
 
-									<button className="hire-btn" type="submit">
+									<button
+										disabled={!recaptchaValue}
+										className="hire-btn"
+										type="submit">
 										Send Message
 									</button>
 								</div>
+								{message && <p>{message}</p>}
 							</div>
 						</form>
 					</div>

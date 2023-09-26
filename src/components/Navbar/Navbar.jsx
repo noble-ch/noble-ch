@@ -16,11 +16,12 @@ const Navbar = () => {
 						<div className="col-xl-12 d-flex align-items-center lefty">
 							<h5 className="ld-flex mr-auto devman">
 								<img
-									src="https://code.google.com/images/developers.png"
+									src="./images/noble-logo.png"
 									alt=""
 								/>
-								Noble <span className="blink"> _</span>
+								<span className="noble">N O B L E</span> <span className="blink">_</span>
 							</h5>
+
 							<nav className="nav-menu  mainMenu">
 								<ul>
 									<li
@@ -46,10 +47,17 @@ const Navbar = () => {
 									<li data-aos="fade-down" data-aos-duration="1800">
 										<a href="#contact">Contact</a>
 									</li>
+									<li data-aos="fade-down" data-aos-duration="2100">
+										<div  className=" translate">
+											<GoogleTranslateComponent />
+										</div>
+									</li>
 								</ul>
 							</nav>
 							<div className="nav-social">
-								<i className="fa fa-github"></i>
+								<a href="https://github.com/noble-ch">
+									<i className="fa fa-github"></i>
+								</a>
 							</div>
 							<div className="left-btns">
 								<div className=" " id="theme-button2">
@@ -60,14 +68,11 @@ const Navbar = () => {
 										<button className="my-cv">Contact Me</button>
 									</div>
 								</div>
-
 								<div className=" " id="theme-button">
 									<Link to="#" className="menuBtn">
 										<span className="lines"></span>
 									</Link>
 								</div>
-                <GoogleTranslateComponent />
-
 							</div>
 						</div>
 					</div>

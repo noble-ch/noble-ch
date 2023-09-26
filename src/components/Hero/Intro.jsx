@@ -1,16 +1,16 @@
 import decor3 from "../../images/decoration/Group-31.png";
+
 import "./Intro.css";
 
 const introData = [
 	{
 		id: 1,
 		job_title: "Web Developer",
-		name: "Noble Biru",
+		name: "Noble  Biru",
 		par_inro: "I'm a passionate web developer...",
 		hireMe_link: "nobledarm@gmail.com",
 		avatar_img: "image_url_1.jpg"
-	},
-
+	}
 ];
 
 const contactDetails = [
@@ -66,10 +66,10 @@ const Intro = () => {
 										className="name"
 										data-aos="fade-down"
 										data-aos-duration="1600">
-										Hey! I Am
+										Hello! my name is
 									</h3>
 									<h3
-										className="job  text-animate"
+										className="job  text-animate notranslate"
 										data-aos="fade-down"
 										data-aos-duration="1700">
 										{detail.name}
@@ -103,7 +103,7 @@ const Intro = () => {
 											{contactDetails.map((data1) => (
 												<a
 													href={data1.link}
-													className="icon-link"
+													className="icon-link "
 													target="_blank"
 													rel="noopener noreferrer"
 													key={data1.id}>
