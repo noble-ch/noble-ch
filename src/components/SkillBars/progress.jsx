@@ -98,7 +98,7 @@ const Progress = () => {
 				<div className="lang-img">
 					<img src={skill.icon} alt="" />
 				</div>
-				<h3>{skill.lang_name}</h3>
+				<h3 className="text-center">{skill.lang_name}</h3>
 				<p className={`${skill.exp_level}`}>{skill.exp_level}</p>
 			</div>
 		</div>

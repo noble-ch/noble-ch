@@ -32,7 +32,7 @@ const Email = (e) => {
 	const form = useRef();
 
 	const [recaptchaValue, setRecaptchaValue] = useState("");
-	const [message, setMessage] = useState("Please complete the reCAPTCHA.");
+	const [message, setMessage] = useState("Please complete the reCAPTCHA. to send");
 
 	const handleRecaptchaChange = (value) => {
 		setRecaptchaValue(value);
@@ -43,7 +43,7 @@ const Email = (e) => {
 		if (!recaptchaValue) {
 			return;
 		}
-		
+
 		const templateParams = {
 			user_name: e.target.user_name.value,
 			user_email: e.target.user_email.value,
@@ -76,91 +76,93 @@ const Email = (e) => {
 
 	return (
 		<>
-			<div className="reachme-container">
-				<div className="reachme-title2">
-					<h2>I Want To Hear From You</h2>
+			<main id="contact">
+				<div className="reachme-container">
+					<div className="reachme-title2">
+						<h2>I Want To Hear From You</h2>
 
-					<h3>Contact Me</h3>
-				</div>
-				<div className="row">
-					<div className="col-md-5">
-						<div className="reachme-title">
-							<div className="row">
-								{contactData.map((details) => (
-									<div className="contact-info" key={details.id}>
-										<div className="contact-details">
-											<i className={details.icon}></i>
-											<div className="contact-mi">
-												<h4 className="icon-name">{details.contact_name}:</h4>
-												<p className="d-name">{details.contact_info}</p>
+						<h3>Contact Me</h3>
+					</div>
+					<div className="row">
+						<div className="col-md-5">
+							<div className="reachme-title">
+								<div className="row">
+									{contactData.map((details) => (
+										<div className="contact-info" key={details.id}>
+											<div className="contact-details">
+												<i className={details.icon}></i>
+												<div className="contact-mi">
+													<h4 className="icon-name">{details.contact_name}:</h4>
+													<p className="d-name">{details.contact_info}</p>
+												</div>
 											</div>
 										</div>
-									</div>
-								))}
+									))}
+								</div>
 							</div>
 						</div>
-					</div>
-					<div className="col-md-6 email-me container">
-						<form
-							action=""
-							className="contact-form"
-							ref={form}
-							onSubmit={sendEmail}>
-							<div className="row">
-								<div className="col-md-12 mb-3 hire-me-title"></div>
-								<div className="col-md-6 ">
-									<input
-										type="text"
-										name="user_name"
-										id=""
-										required="true"
-										placeholder="Enter Your Name"
-									/>
-								</div>
-								<div className="col-md-6 ">
-									<input
-										type="email"
-										name="user_email"
-										id=""
-										required="true"
-										placeholder="Enter Your Email"
-									/>
-								</div>
-								<div className="col-md-12">
-									<input
-										type="text"
-										name="subject"
-										id=""
-										required="true"
-										placeholder="Enter Subject"
-									/>
-								</div>
-								<div className="col-md-12 mb-2">
-									<textarea
-										name="message"
-										id=""
-										cols="60"
-										rows="8"
-										required="true"
-										placeholder="Your Message"></textarea>
-									<ReCAPTCHA
-										sitekey="6Lcvh1IoAAAAAPKT2jxy74Z4liO7JySsYRPYxwY5"
-										onChange={handleRecaptchaChange}
-									/>
+						<div className="col-md-6 email-me container">
+							<form
+								action=""
+								className="contact-form"
+								ref={form}
+								onSubmit={sendEmail}>
+								<div className="row">
+									<div className="col-md-12 mb-3 hire-me-title"></div>
+									<div className="col-md-6 ">
+										<input
+											type="text"
+											name="user_name"
+											id=""
+											required="true"
+											placeholder="Enter Your Name"
+										/>
+									</div>
+									<div className="col-md-6 ">
+										<input
+											type="email"
+											name="user_email"
+											id=""
+											required="true"
+											placeholder="Enter Your Email"
+										/>
+									</div>
+									<div className="col-md-12">
+										<input
+											type="text"
+											name="subject"
+											id=""
+											required="true"
+											placeholder="Enter Subject"
+										/>
+									</div>
+									<div className="col-md-12 mb-2">
+										<textarea
+											name="message"
+											id=""
+											cols="60"
+											rows="8"
+											required="true"
+											placeholder="Your Message"></textarea>
+										<ReCAPTCHA theme='dark'
+											sitekey="6Lcvh1IoAAAAAPKT2jxy74Z4liO7JySsYRPYxwY5"
+											onChange={handleRecaptchaChange}
+										/>
 
-									<button
-										disabled={!recaptchaValue}
-										className="hire-btn"
-										type="submit">
-										Send Message
-									</button>
+										<button
+											disabled={!recaptchaValue}
+											className="hire-btn"
+											type="submit">
+											Send Message
+										</button>
+									</div>
+									{message && <p>{message}</p>}
 								</div>
-								{message && <p>{message}</p>}
-							</div>
-						</form>
+							</form>
+						</div>
 					</div>
 				</div>
-			</div>
+			</main>
 		</>
 	);
 };
