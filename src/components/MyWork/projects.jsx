@@ -19,7 +19,7 @@ const projectData = [
 		id: 2,
 		Project_title: "e-commerce",
 		Project_info:
-			"a fully interactive e-commerce website with chapa payment api integrated and much more",
+			"a fully interactive e-commerce website where customers can access products , check product details, search products by name and discription,filter by price,category and brands, add to cart, place order , manage their order, and pay with chapa pyment system0 ",
 		about_avatar: "./images/ecomerece.jpeg",
 
 		language_used: "React , django",
@@ -28,14 +28,28 @@ const projectData = [
 	},
 	{
 		id: 3,
-		Project_title: "e-commerce",
+		Project_title:
+			" a search enginge based on document Analysis and Ranking_system",
 		Project_info:
-			"a fully interactive e-commerce website with chapa payment api integrated and much more",
-		about_avatar: "./images/ecomerece.jpeg",
+			"The Word Frequency Counter GUI is a Java program that provides a graphical user interface for analyzing text files and calculating word frequencies and TF-IDF values. The program allows users to choose text files, preprocess them by removing stopwords, stemming the words. Users can also search for specific terms and view the search results ranked by cosine similarity. ",
+		about_avatar: "./images/eecomerece.jpeg",
 
-		language_used: "React , django",
-		demo_link: "https://demo2.com",
-		project_link: "https://github.com/noble-ch/onlineShop"
+		language_used: "java",
+		demo_link:
+			"https://github.com/noble-ch/Document_Analysis_and_Ranking_System",
+		project_link:
+			"https://github.com/noble-ch/Document_Analysis_and_Ranking_System"
+	},
+	{
+		id: 4,
+		Project_title: " tik-tak toe against ai",
+		Project_info:
+			"It is a game where you can play against an AI opponent that uses the minimax algorithm to make its moves. also have multiplayer option where users can play against each other ",
+		about_avatar: "./images/eecomerece.jpeg",
+
+		language_used: "python",
+		demo_link: "https://github.com/noble-ch/tik-tak_toe_game",
+		project_link: "https://github.com/noble-ch/tik-tak_toe_game"
 	}
 ];
 const Projects = () => {
@@ -102,8 +116,8 @@ const Projects = () => {
 										target="_blank"
 										rel="noopener noreferrer">
 										<h6 className="learnmore">
-											<i className="fa fa-laptop" aria-hidden="true"></i>&nbsp; Live
-											Demo
+											<i className="fa fa-laptop" aria-hidden="true"></i>&nbsp;
+											Live Demo
 										</h6>
 									</a>
 									<a

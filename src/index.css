@@ -25,7 +25,7 @@
 	--color-button-hover: #f3390b;
 	--color-button-disabled: hsla(12, 100%, 50%, 0.692);
 
-	--color-icon-hover: linear-gradient(to right, tomato 0%, gold 100%);
+	--color-icon-hover: linear-gradient(to right, rgb(255, 0, 0) 0%, rgb(255, 174, 0) 100%);
 
 	--color-background-2: #01102c;
 	--color-icon-background: #464a68;
@@ -154,8 +154,8 @@ section > div {
 	--color-title: #050748 !important;
 	--color-button: linear-gradient(
 		to right,
-		#fb7878 0%,
-		#ffaf74 100%
+		#4e1ff5 0%,
+		#ec12a3 100%
 	) !important;
 	--btn-background: linear-gradient(
 		90deg,

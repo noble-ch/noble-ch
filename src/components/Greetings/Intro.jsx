@@ -18,25 +18,25 @@ const contactDetails = [
 	{
 		id: 1,
 		platform: "Instagram",
-		link: "https://www.instagram.com/your_instagram_username/",
+		link: "https://www.instagram.com/noba-chu/",
 		social_icon: "fa fa-instagram"
 	},
 	{
 		id: 2,
 		platform: "LinkedIn",
-		link: "https://www.linkedin.com/in/your_linkedin_username/",
+		link: "https://www.linkedin.com/in/noble-bi/",
 		social_icon: "fa fa-linkedin"
 	},
 	{
 		id: 3,
 		platform: "Twitter",
-		link: "https://twitter.com/your_twitter_username/",
+		link: "https://twitter.com/noble/",
 		social_icon: "fa fa-twitter"
 	},
 	{
 		id: 4,
 		platform: "Telegram",
-		link: "https://t.me/your_telegram_username/",
+		link: "https://t.me/noble_ch/",
 		social_icon: "fa fa-telegram"
 	}
 ];
@@ -67,7 +67,7 @@ const Intro = () => {
 										className="name"
 										data-aos="fade-down"
 										data-aos-duration="1600">
-										Hello! my name is
+										Hi! I am
 									</h3>
 									
 									<h3
