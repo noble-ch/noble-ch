@@ -1,5 +1,5 @@
 import decor3 from "../../images/decoration/Group-31.png";
-import Hero from '../Hero/Hero'
+import Hero from "../Hero/Hero";
 
 import "./Intro.css";
 
@@ -18,13 +18,13 @@ const contactDetails = [
 	{
 		id: 1,
 		platform: "Instagram",
-		link: "https://www.instagram.com/noba-chu/",
+		link: "https://instagram.com/noba_chu?igshid=YWYwM2I1ZDdmOQ==",
 		social_icon: "fa fa-instagram"
 	},
 	{
 		id: 2,
 		platform: "LinkedIn",
-		link: "https://www.linkedin.com/in/noble-bi/",
+		link: "https://www.linkedin.com/in/noble-bi-797b85253",
 		social_icon: "fa fa-linkedin"
 	},
 	{
@@ -69,7 +69,7 @@ const Intro = () => {
 										data-aos-duration="1600">
 										Hi! I am
 									</h3>
-									
+
 									<h3
 										className="job  text-animate notranslate"
 										data-aos="fade-down"
@@ -83,8 +83,13 @@ const Intro = () => {
 										{detail.par_inro}
 									</p> */}
 								</div>
-								<div data-aos="fade-down" data-aos-duration="1800" className='myinfo' ><Hero/></div>
-								
+								<div
+									data-aos="fade-down"
+									data-aos-duration="1800"
+									className="myinfo">
+									<Hero />
+								</div>
+
 								<div
 									className="intro-btns"
 									data-aos="fade-up"
@@ -103,7 +108,7 @@ const Intro = () => {
 									data-aos-duration="1800">
 									<span>Follow Me:</span>
 									<ul>
-										<li className=' d-flex justify-content-sm-center justify-content-md-start    '>
+										<li className=" d-flex justify-content-sm-center justify-content-md-start    ">
 											{contactDetails.map((data1) => (
 												<a
 													href={data1.link}
