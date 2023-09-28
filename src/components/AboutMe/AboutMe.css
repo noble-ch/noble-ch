@@ -304,7 +304,8 @@ i {
 }
 .imaag {
 	border-radius: 68% 32% 19% 81% / 31% 30% 70% 69%;
-	background: linear-gradient(#0c0c11, #112021);
+	background: linear-gradient(rgb(10, 5, 56), rgb(53, 0, 63));
 	filter: hue-rotate(-10deg);
+  filter: brightness(70%)
   
 }
