@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
+
 #header {
 	transition: all 0.5s;
 
@@ -17,7 +18,7 @@
 	line-height: 1;
 	font-weight: 400;
 	letter-spacing: 2px;
-	font-family: "Mr Dafoe", cursive;
+	font-family: "Mr Dafoe",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 20px !important;
 }
 
@@ -46,23 +47,23 @@
 	display: flex !important;
 }
 .navbur .myname {
-	font-family: "Playfair Display", serif !important;
-
+	font-family: "Playfair Display", serif , Arial, sans-serif !important;
 	font-weight: 800;
 	line-height: 1;
 	color: var(--white);
+
 	background: var(--color-white);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .navbur {
-	background: var(--color-background) !important;
+	background: var(--color-background-navbur) !important;
 	box-shadow: rgb(0, 10, 24) 0px 0px 10px -10px;
-	padding: 20px 0;
+	padding: 6px 0;
 	position: relative;
 	border-bottom: 0.1px solid var(--color-background);
-
 	transition: all 0.5s ease !important;
+	
 }
 nav {
 	display: flex !important;
@@ -90,7 +91,7 @@ nav {
 
 	position: relative;
 	font-style: normal;
-	font-family: "Share Tech Mono", monospace;
+	font-family: "Share Tech Mono", monospace, Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	letter-spacing: 0.05em;
@@ -132,7 +133,7 @@ nav {
 }
 .myname {
 	font-size: 2vw;
-	font-family: "Playfair Display", Sans-serif;
+	font-family: "Playfair Display", Sans-serif , Arial, Helvetica, sans-serif;
 	text-transform: uppercase;
 	font-weight: 800;
 }
@@ -405,7 +406,7 @@ nav {
 	justify-content: center;
 	margin-bottom: 0 !important;
 
-	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace,Arial, Helvetica, sans-serif;
 	align-items: center;
 	font-weight: 800 !important;
 }
@@ -451,7 +452,7 @@ nav {
 .light .myname {
 	color: #000000 !important;
 
-	font-family: "Playfair Display", serif !important;
+	font-family: "Playfair Display", serif , a !important;
 	font-weight: 800;
 	line-height: 1;
 	color: var(--white);

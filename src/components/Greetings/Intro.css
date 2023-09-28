@@ -7,7 +7,7 @@
 }
 .intro-page::after {
 	content: "";
-	background-image: url("/src/images/decoration/background.png");
+	background-image: url("/src/images/decoration/background8.jpg");
 	background-size: cover;
 	position: absolute;
 	top: 0px;
@@ -16,6 +16,7 @@
 	left: 0px;
 	z-index: -1;
 	opacity: 0.2;
+	
 }
 .small-intro {
 	opacity: 0.9 !important;
@@ -42,14 +43,14 @@
 	width: 100%;
 }
 .intro-name {
-	font-family: "Jost", sans-serif !important;
+	font-family: "Jost", sans-serif, Arial, Helvetica, sans-serif !important;
 }
 .intro-row {
 	display: flex !important;
 	align-items: center;
 	padding-left: 40px;
 	padding-right: 20px;
-	margin-top: 80px;
+	margin-top: 12px;
 	padding-top: 50px;
 	padding-bottom: 60px;
 	flex-wrap: wrap;
@@ -80,7 +81,8 @@
 	background: var(--color-special-color);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+	font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace,
+		Arial, Helvetica, sans-serif;
 }
 
 .intro-left {
@@ -117,7 +119,7 @@
 	font-weight: 300;
 	color: var(--color-white);
 	font-size: 16px;
-	font-family: "Rubik", sans-serif !important;
+	font-family: "Rubik", sans-serif, Arial, Helvetica, sans-serif !important;
 }
 .intro-btns button {
 	height: 60px;

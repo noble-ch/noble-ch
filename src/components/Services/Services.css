@@ -1,8 +1,10 @@
+
 .service-container {
   color: var(--color-info-light);
   max-width: 100%;
   z-index: 22;
   padding: 70px 60px;
+  
   background-color: var(--color-background);
 }
 .service-row {

@@ -44,8 +44,9 @@ const contactDetails = [
 const Intro = () => {
 	return (
 		<>
+			<div className="home"></div>
 			{introData.map((detail) => (
-				<section className=" intro-page" id="home" key={detail.id}>
+				<section className=" intro-page vh-100 " id="home" key={detail.id}>
 					<div className="decorations">
 						<div className="decor-dot2">
 							<img src={decor3} alt="" />
@@ -127,11 +128,7 @@ const Intro = () => {
 								className="col-lg-7 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
 								<div className="ff">
-									<img
-										className="intro-img"
-										src="https://drive.google.com/uc?id=1iyVyaGyw5HniEugxd1-qZ54rpFpn2UTc"
-										alt=""
-									/>
+									<img className="intro-img" src="./images/svg-gobbler.svg" alt="" />
 									{/* <img
 										className="intro-img"
 										src={`${img_300}${detail.avatar_img}`}

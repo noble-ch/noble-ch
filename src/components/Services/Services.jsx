@@ -32,7 +32,7 @@ const serviceData = [
 const Services = () => {
 
 	return (
-		<>
+		<main className="service-page">
 			<section id="services">
 				<div className="service-container">
 					<div className="service-title">
@@ -60,7 +60,7 @@ const Services = () => {
 					</div>
 				</div>
 			</section>
-		</>
+		</main>
 	);
 };
 

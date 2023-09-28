@@ -1,12 +1,12 @@
 .mywork {
   color: var(--color-info-light);
   width: 100%;
-  padding: 0 60px 0 60px;
-  margin-top: 30px !important;
+  padding: 70px 10px 0 60px;
+  margin-top: 10px !important;
   overflow: hidden;
 }
 .mywork-title {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   text-align: center;
 }
 .mywork-title h2 {
@@ -88,7 +88,7 @@
   white-space: normal;
 }
 .admin {
-  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace,Arial, Helvetica, sans-serif;
 }
 .who-post {
   display: flex;
@@ -214,7 +214,7 @@
 
 .light .work-details h2 {
   color: black !important;
-  font-family: "poppins", sans-serif !important;
+  font-family: "poppins", sans-serif,Arial, Helvetica, sans-serif !important;
 }
 .light .who-post p {
   color: #ff5652 !important;

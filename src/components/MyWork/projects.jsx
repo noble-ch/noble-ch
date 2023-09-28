@@ -6,16 +6,6 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const projectData = [
 	{
-		id: 1,
-		Project_title: "Youtube-clone",
-		Project_info: "a front end youtube interface with pure html,css,javascript",
-		about_avatar: "./images/youtube-clone.jpeg",
-
-		language_used: "html,css",
-		demo_link: "https://youtube-clone-pied-theta.vercel.app/",
-		project_link: "https://github.com/noble-ch/Youtube-Clone.git"
-	},
-	{
 		id: 2,
 		Project_title: "e-commerce",
 		Project_info:
@@ -36,6 +26,16 @@ const projectData = [
 		language_used: "python",
 		demo_link: "https://github.com/noble-ch/tik-tak_toe_game",
 		project_link: "https://github.com/noble-ch/tik-tak_toe_game"
+	},
+	{
+		id: 1,
+		Project_title: "Youtube-clone",
+		Project_info: "a front end youtube interface with pure html,css,javascript",
+		about_avatar: "./images/youtube-clone.jpeg",
+
+		language_used: "html,css",
+		demo_link: "https://youtube-clone-pied-theta.vercel.app/",
+		project_link: "https://github.com/noble-ch/Youtube-Clone.git"
 	},
 	{
 		id: 4,
