@@ -1,3 +1,5 @@
+import ParticlesBg from 'particles-bg'
+
 import "./AboutMe.css";
 import decor1 from "../../images/decoration/dots-1.png";
 import reactagle from "../../images/decoration/Rectangle-7.png";
@@ -77,6 +79,8 @@ const AboutMe = () => {
 								</a>
 							</div> */}
 						</div>
+						<ParticlesBg type="polygon" bg={true} num={1} />
+
 					</div>
 				</div>
 			</main>

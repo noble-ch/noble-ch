@@ -1,7 +1,7 @@
 import decor3 from "../../images/decoration/Group-31.png";
 import Hero from "../Hero/Hero";
 import { useLottie } from "lottie-react";
-import deeloperAnimation from "../Hero/deeloperAnimation6.json";
+import deeloperAnimation from "../Hero/deeloperAnimation11.json";
 
 import "./Intro.css";
 
@@ -75,7 +75,7 @@ const Intro = () => {
 										data-aos-duration="1500">
 										{detail.job_title}
 									</h3>
-									<h3 
+									<h3
 										className="name text-center"
 										data-aos="fade-down"
 										data-aos-duration="1600">
