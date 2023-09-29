@@ -5,7 +5,8 @@
   position: relative;
   padding: 50px 40px 20px 40px;
   margin: auto;
-  background: var(--color-background-2);
+  background:linear-gradient(to top left, rgb(8, 10, 22) 40%, rgb(13, 22, 13))  !important;
+  /* background: none !important; */
 }
 .reachme-container .row {
   display: flex !important;

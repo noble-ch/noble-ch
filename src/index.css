@@ -16,7 +16,7 @@
 	--color-light: rgba(132, 139, 200, 0.18);
 	--color-primary-variant: #0f101b;
 	--color-dark-variant: #677483;
-	--color-background: #080c1a;
+	--color-background: #090e11;
 	--color-background-navbur: linear-gradient(
 		to right,
 		#090d18 0%,
@@ -25,7 +25,7 @@
 	/* --color-background-navbur:linear-gradient(to top right,#21442d1f 30%, #15ff0000 100%); */
 
 	--color-title: #2196f3;
-	--color-card2: #14143a;
+	--color-card2: rgb(14, 28, 29);
 
 	--color-button: linear-gradient(
 		to right,

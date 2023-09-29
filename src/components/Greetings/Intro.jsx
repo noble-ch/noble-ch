@@ -138,7 +138,7 @@ const Intro = () => {
 							<div
 								className="col-lg-6 mb-4 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
-								<div style={{ maxWidth: "800px" }} className="ff  ">
+								<div style={{ maxWidth: "fitContent" }} className="ff  img-fluid  ">
 									{/* <img
 										className="intro-img"
 										src="./images/svg-gobbler.svg"

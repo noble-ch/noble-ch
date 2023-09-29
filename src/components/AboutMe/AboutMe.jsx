@@ -39,8 +39,7 @@ const AboutMe = () => {
 								<h3>WHY YOU SHOULD HIRE ME FOR YOUR NEXT PROJECT</h3>
 							</div>
 							<div className="about-description">
-								<div id="foo" unselectable="on" class="unselectable">
-									<div />
+								<div id="foo" unselectable="on" class="unselectable desc">
 									<p>
 										I'm a 21-year-old Computer Science and Engineering student
 										at Adama Science and Technology University. I specialize in

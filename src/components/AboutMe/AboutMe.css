@@ -5,7 +5,7 @@
 	padding: 0 40px;
 	position: relative;
 	padding: 100px 40px 20px 40px;
-	/* background: var(--color-background-2); */
+	/* background: linear-gradient(to right, rgb(8, 10, 22), rgb(16, 29, 16)); */
 }
 
 .abouMe-row {
@@ -44,6 +44,30 @@
 	font-weight: 500;
 	margin-bottom: 10px;
 }
+.about_myinfo{
+background: #1f251f34;
+border-radius: 10px;
+box-shadow: 0 0 20px rgb(17, 59, 30);
+padding: 10px;
+backdrop-filter: blur(10px);
+}
+
+.about_myinfo::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(50deg, transparent, rgba(27, 65, 35, 0.288) , transparent);
+	transition: .5s;
+	opacity: 0;
+	}
+	
+	.about_myinfo:hover::before{
+		/* left: 100%; */
+		opacity: 1;
+	}
 
 .about_description {
 	padding: 0 40px !important;
@@ -306,6 +330,5 @@ i {
 	/* border-radius: 68% 32% 0% 81% / 31% 30% 70% 69%; */
 	/* background: linear-gradient(rgb(16, 41, 31), rgb(53, 0, 63)); */
 	filter: hue-rotate(-10deg);
-  filter: brightness(80%)
-  
+	filter: brightness(80%);
 }

@@ -3,6 +3,8 @@ import React from "react";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
+// import ParticlesBg from 'particles-bg'
+
 
 const projectData = [
 	{
@@ -90,6 +92,7 @@ const Projects = () => {
 
 	return (
 		<div className="mywork " id="work">
+			{/* <ParticlesBg type="polygon" bg={true} num={1} /> */}
 			<div className="mywork-title">
 				<h2>Check Out Some Of My Projects</h2>
 				<h3>My Work</h3>
@@ -134,6 +137,8 @@ const Projects = () => {
 					))}
 				</OwlCarousel>
 			</div>
+
+
 		</div>
 	);
 };

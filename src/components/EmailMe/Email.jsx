@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./Email.css";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
+// import ParticlesBg from 'particles-bg'
 
 const contactData = [
 	{
@@ -162,6 +163,8 @@ const Email = (e) => {
 						</div>
 					</div>
 				</div>
+				{/* <ParticlesBg type="polygon" bg={true} num={1} /> */}
+
 			</main>
 		</>
 	);
