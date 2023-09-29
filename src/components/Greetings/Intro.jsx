@@ -2,6 +2,10 @@ import decor3 from "../../images/decoration/Group-31.png";
 import Hero from "../Hero/Hero";
 import { useLottie } from "lottie-react";
 import deeloperAnimation from "../Hero/deeloperAnimation6.json";
+import ParticlesBg from "particles-bg";
+import { Parallax, ParallaxLayer } from '@react-spring/parallax'
+
+
 
 import "./Intro.css";
 
@@ -55,9 +59,12 @@ const Intro = () => {
 
 	return (
 		<>
-			<div className="home"></div>
+		      {/* <Parallax pages={1}> */}
+			  {/* <ParallaxLayer sticky={{ start: 1, end: 3 }} > */}
 			{introData.map((detail) => (
 				<section className=" intro-page zz  " id="home" key={detail.id}>
+											<ParticlesBg  color="#00f549" type="cobweb"  bg={true} num={50} />
+
 					<div className="decorations">
 						<div className="decor-dot2">
 							<img src={decor3} alt="" />
@@ -65,8 +72,12 @@ const Intro = () => {
 
 						<div className="parcol"></div>
 					</div>
+
 					<div className="small-intro ">
+
 						<div className="intro-row ">
+						
+
 							<div className="col-lg-6     col-md-6 col-sm-12 intro-left ">
 								<div className="intro-name">
 									<h3
@@ -120,7 +131,7 @@ const Intro = () => {
 									data-aos-duration="1800">
 									<span className="text-center">Follow Me:</span>
 									<ul>
-										<li className=" d-flex justify-content-sm-center justify-content-md-csnter    ">
+										<li className=" d-flex justify-content-center  ">
 											{contactDetails.map((data1) => (
 												<a
 													href={data1.link}
@@ -135,6 +146,7 @@ const Intro = () => {
 									</ul>
 								</div>
 							</div>
+							
 							<div
 								className="col-lg-6 mb-4 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
@@ -156,6 +168,8 @@ const Intro = () => {
 					</div>
 				</section>
 			))}
+			{/* </ParallaxLayer> */}
+			 {/* </Parallax> */}
 		</>
 	);
 };

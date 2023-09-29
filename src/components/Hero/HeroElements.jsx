@@ -2,8 +2,8 @@
 import styled, { keyframes } from "styled-components";
 
 export const HeroContainer = styled.div`
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -50,7 +50,7 @@ export const HeroLeft = styled.div`
   h5 {
     font-size: 1rem;
     color: rgb(199, 199, 201);
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     font-weight: 400;
   }
 
@@ -63,9 +63,11 @@ export const HeroLeft = styled.div`
   @media screen and (max-width: 2000px) {
     text-align: center;
     align-items: center;
+    padding : 0px auto ;
+    margin: 0px auto ;
 
     h5 {
-      min-height: 0.5rem;
+      min-height: 0rem;
   }
 `;
 

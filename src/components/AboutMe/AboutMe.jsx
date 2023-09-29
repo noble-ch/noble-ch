@@ -1,4 +1,4 @@
-import ParticlesBg from 'particles-bg'
+import ParticlesBg from "particles-bg";
 
 import "./AboutMe.css";
 import decor1 from "../../images/decoration/dots-1.png";
@@ -25,11 +25,9 @@ const AboutMe = () => {
 						<div
 							className=" col-lg-4 col-md-5 col-sm-12 about-img "
 							data-aos="fade-up-right">
-							<img
-								className="imaag "
-								src="./images/nob3.png"
-								alt=""
-							/>
+							<img className="imaag " src="./images/nob3.png" alt="" />
+
+							{/* <ParticlesBg type="elipse" bg={true} num={1} /> */}
 						</div>
 						<div
 							className=" col-lg-8 col-md-7  col-sm-12 about_myinfo"
@@ -78,7 +76,7 @@ const AboutMe = () => {
 								</a>
 							</div> */}
 						</div>
-						<ParticlesBg type="polygon" bg={true} num={1} />
+						<ParticlesBg type="lines"  bg={true} num={10} />
 
 					</div>
 				</div>

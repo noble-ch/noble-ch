@@ -9,7 +9,7 @@
 	content: "";
 	background-image: url("/src/images/decoration/background8.jpg");
 	background-size: cover;
-	background-position: center;
+	/* background-position: center; */
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -121,13 +121,14 @@
 .intro-left .myinfo {
 	font-size: 15px;
 	font-weight: 400 !important;
-	margin-bottom: 20px;
 	font-weight: 300;
+	height: 20px;
 	color: var(--color-white);
 	font-size: 16px;
 	font-family: "Rubik", sans-serif, Arial, Helvetica, sans-serif !important;
 }
 .intro-btns button {
+	margin-top: 40px;
 	height: 60px;
 	width: 180px;
 	outline: none;
@@ -451,16 +452,19 @@
 }
 @media only screen and (max-width: 330px) {
 	.intro-page {
-		padding-bottom: 50px;
+		width: 100vw !important;
+		margin: 0 0 !important;
+		
+
 	}
 
 	.intro-btns button {
 		width: 150px;
-		height: 45px;
-		margin: 10px 10px !important;
+		height: 30px;
+		margin: 0px 10px !important;
 	}
 	.intro-left p {
-		margin-bottom: 10px !important;
+		margin-bottom: 0 !important;
 	}
 	.intro-img {
 		width: 100% !important;
@@ -523,4 +527,14 @@
 .light .intro-page::after {
 	background: none !important;
 	opacity: 0.2;
+}
+
+@media only screen and (max-width: 1400px){
+.intro-btns  {
+	margin-top: 25px;
+
+}
+.intro-contact{
+	margin-top: 10px;
+}
 }

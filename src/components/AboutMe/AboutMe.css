@@ -5,7 +5,7 @@
 	padding: 0 40px;
 	position: relative;
 	padding: 100px 40px 20px 40px;
-	/* background: linear-gradient(to right, rgb(8, 10, 22), rgb(16, 29, 16)); */
+	background: linear-gradient(to right, rgba(8, 10, 22, 0.658), rgba(16, 29, 16, 0.644));
 }
 
 .abouMe-row {
