@@ -9,7 +9,10 @@ const AboutMe = () => {
 	return (
 		<>
 			<main id="about">
+
 				<div className="aboutMe-container">
+				<ParticlesBg type="square" bg={true} num={5} />
+
 					<div className="about-decor">
 						<div className="about-dots">
 							<img src={decor1} alt="" />
@@ -29,6 +32,7 @@ const AboutMe = () => {
 
 							{/* <ParticlesBg type="elipse" bg={true} num={1} /> */}
 						</div>
+
 						<div
 							className=" col-lg-8 col-md-7  col-sm-12 about_myinfo"
 							data-aos="fade-up-left">
@@ -76,7 +80,6 @@ const AboutMe = () => {
 								</a>
 							</div> */}
 						</div>
-						<ParticlesBg type="polygon" bg={true} num={15} />
 					</div>
 				</div>
 			</main>
