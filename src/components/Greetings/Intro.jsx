@@ -1,5 +1,7 @@
 import decor3 from "../../images/decoration/Group-31.png";
 import Hero from "../Hero/Hero";
+import { useLottie } from "lottie-react";
+import deeloperAnimation from "../Hero/deeloperAnimation6.json";
 
 import "./Intro.css";
 
@@ -7,7 +9,7 @@ const introData = [
 	{
 		id: 1,
 		job_title: "Web Developer",
-		name: "Noble  Biru",
+		name: "N o b l e  B i r u",
 		par_inro: "I'm a passionate web developer...",
 		hireMe_link: "nobledarm@gmail.com",
 		avatar_img: "image_url_1.jpg"
@@ -42,11 +44,20 @@ const contactDetails = [
 ];
 
 const Intro = () => {
+	const options = {
+		animationData: deeloperAnimation,
+		renderer: "svg",
+		loop: true,
+		autoplay: true
+	};
+
+	const { View } = useLottie(options);
+
 	return (
 		<>
 			<div className="home"></div>
 			{introData.map((detail) => (
-				<section className=" intro-page vh-100 " id="home" key={detail.id}>
+				<section className=" intro-page zz vh-100 " id="home" key={detail.id}>
 					<div className="decorations">
 						<div className="decor-dot2">
 							<img src={decor3} alt="" />
@@ -54,9 +65,9 @@ const Intro = () => {
 
 						<div className="parcol"></div>
 					</div>
-					<div className="small-intro">
-						<div className="intro-row">
-							<div className="col-lg-5  col-md-6 col-sm-12 intro-left">
+					<div className="small-intro ">
+						<div className="intro-row ">
+							<div className="col-lg-5   col-md-7 col-sm-12 intro-left ">
 								<div className="intro-name">
 									<h3
 										className="hello"
@@ -68,11 +79,11 @@ const Intro = () => {
 										className="name"
 										data-aos="fade-down"
 										data-aos-duration="1600">
-										Hi! I am
+										Hey! I Am
 									</h3>
 
 									<h3
-										className="job  text-animate notranslate"
+										className="job text-animate notranslate"
 										data-aos="fade-down"
 										data-aos-duration="1700">
 										{detail.name}
@@ -127,13 +138,18 @@ const Intro = () => {
 							<div
 								className="col-lg-7 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
-								<div className="ff">
-									<img className="intro-img" src="./images/svg-gobbler.svg" alt="" />
+								<div style={{ maxWidth: "900px" }} className="ff  ">
+									{/* <img
+										className="intro-img"
+										src="./images/svg-gobbler.svg"
+										alt=""
+									/> */}
 									{/* <img
 										className="intro-img"
 										src={`${img_300}${detail.avatar_img}`}
 										alt=""
 									/> */}
+									{View}
 								</div>
 							</div>
 						</div>

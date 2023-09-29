@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { HeroContainer, HeroWrapper, HeroLeft } from "./HeroElements";
 import { TypeAnimation } from "react-type-animation";
-import ScrollAnimation from "react-animate-on-scroll";
 
 import "../Greetings/Intro.css";
 
@@ -13,7 +12,6 @@ function Hero() {
 			<HeroContainer>
 				<HeroWrapper>
 					<HeroLeft>
-						<ScrollAnimation animateIn="fadeIn">
 							<TypeAnimation
 								cursor={false}
 								sequence={[() => setShowSubtitle(true)]}
@@ -66,7 +64,6 @@ function Hero() {
 									repeat={Infinity}
 								/>
 							)}
-						</ScrollAnimation>
 					</HeroLeft>
 				</HeroWrapper>
 			</HeroContainer>

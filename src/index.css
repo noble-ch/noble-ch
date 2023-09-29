@@ -17,12 +17,21 @@
 	--color-primary-variant: #0f101b;
 	--color-dark-variant: #677483;
 	--color-background: #080c1a;
-	--color-background-navbur:linear-gradient(to right,#090D18 0%, #112021 100%);
+	--color-background-navbur: linear-gradient(
+		to right,
+		#090d18 0%,
+		#112021 100%
+	);
+	/* --color-background-navbur:linear-gradient(to top right,#21442d1f 30%, #15ff0000 100%); */
 
 	--color-title: #2196f3;
 	--color-card2: #14143a;
 
-	--color-button: linear-gradient(to right, deeppink 0%, coral 100%);
+	--color-button: linear-gradient(
+		to right,
+		rgb(194, 132, 0) 0%,
+		rgb(0, 138, 11) 100%
+	);
 	--color-special-color: #eff30e;
 	--color-button-hover: #f3390b;
 	--color-button-disabled: hsla(12, 100%, 50%, 0.692);
@@ -33,7 +42,7 @@
 		rgb(255, 174, 0) 100%
 	);
 
-	--color-background-2: #01102c;
+	--color-background-2: #090d18;
 	--color-icon-background: #464a68;
 	--color-card-background: #1f0a44 0;
 

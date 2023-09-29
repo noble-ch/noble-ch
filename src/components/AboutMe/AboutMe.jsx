@@ -25,7 +25,7 @@ const AboutMe = () => {
 							data-aos="fade-up-right">
 							<img
 								className="imaag "
-								src="./images/nob2.png"
+								src="./images/nob3.png"
 								alt=""
 							/>
 						</div>

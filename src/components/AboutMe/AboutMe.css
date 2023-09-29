@@ -5,7 +5,7 @@
 	padding: 0 40px;
 	position: relative;
 	padding: 100px 40px 20px 40px;
-	/* background: var(--color-background-2); */
+	background: var(--color-background-2);
 }
 
 .abouMe-row {
@@ -303,8 +303,8 @@ i {
 	background: var(--color-button);
 }
 .imaag {
-	border-radius: 68% 32% 19% 81% / 31% 30% 70% 69%;
-	background: linear-gradient(rgb(10, 5, 56), rgb(53, 0, 63));
+	/* border-radius: 68% 32% 19% 81% / 31% 30% 70% 69%; */
+	/* background: linear-gradient(rgb(10, 5, 56), rgb(53, 0, 63)); */
 	filter: hue-rotate(-10deg);
   filter: brightness(70%)
   
