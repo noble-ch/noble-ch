@@ -154,7 +154,6 @@ nav {
 #header.header-inner-pages,
 #header.header-scrolled {
 	background: rgba(24, 6, 185, 0.8) !important;
-	backdrop-filter: blur(20px);
 
 }
 #theme-button {
@@ -458,7 +457,6 @@ nav {
 
 .light .scrolled {
 	background: lightblue !important;
-	backdrop-filter: blur(20px);
 
 }
 .light .navbur {

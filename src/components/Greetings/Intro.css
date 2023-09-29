@@ -98,9 +98,11 @@
 
 .intro-left .job {
 	font-size: 4rem;
-	margin-bottom: 20px !important;
+	margin-bottom: 10px !important;
 	font-weight: 800 !important;
 	color: var(--white);
+	display: flex;
+	justify-content: center;
 	background: var(--color-button);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

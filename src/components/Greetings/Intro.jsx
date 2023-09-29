@@ -67,23 +67,23 @@ const Intro = () => {
 					</div>
 					<div className="small-intro ">
 						<div className="intro-row ">
-							<div className="col-lg-5   col-md-7 col-sm-12 intro-left ">
+							<div className="col-lg-5     col-md-7 col-sm-12 intro-left ">
 								<div className="intro-name">
 									<h3
-										className="hello"
+										className="hello text-center"
 										data-aos="fade-down"
 										data-aos-duration="1500">
 										{detail.job_title}
 									</h3>
-									<h3
-										className="name"
+									<h3 
+										className="name text-center"
 										data-aos="fade-down"
 										data-aos-duration="1600">
 										Hey! I Am
 									</h3>
 
 									<h3
-										className="job text-animate notranslate"
+										className="job text-animate text-center  notranslate"
 										data-aos="fade-down"
 										data-aos-duration="1700">
 										{detail.name}
@@ -103,7 +103,7 @@ const Intro = () => {
 								</div>
 
 								<div
-									className="intro-btns"
+									className="intro-btns d-flex justify-content-center"
 									data-aos="fade-up"
 									data-aos-duration="1900">
 									<a
@@ -118,9 +118,9 @@ const Intro = () => {
 									className="intro-contact"
 									data-aos="fade-up"
 									data-aos-duration="1800">
-									<span>Follow Me:</span>
+									<span className="text-center">Follow Me:</span>
 									<ul>
-										<li className=" d-flex justify-content-sm-center justify-content-md-start    ">
+										<li className=" d-flex justify-content-sm-center justify-content-md-csnter    ">
 											{contactDetails.map((data1) => (
 												<a
 													href={data1.link}
@@ -138,7 +138,7 @@ const Intro = () => {
 							<div
 								className="col-lg-7 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
-								<div style={{ maxWidth: "900px" }} className="ff  ">
+								<div style={{ maxWidth: "800px" }} className="ff  ">
 									{/* <img
 										className="intro-img"
 										src="./images/svg-gobbler.svg"

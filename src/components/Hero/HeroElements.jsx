@@ -60,7 +60,7 @@ export const HeroLeft = styled.div`
     opacity: 0.85;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 2000px) {
     text-align: center;
     align-items: center;
 
