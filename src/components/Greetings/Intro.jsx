@@ -57,7 +57,7 @@ const Intro = () => {
 		<>
 			<div className="home"></div>
 			{introData.map((detail) => (
-				<section className=" intro-page zz vh-100 " id="home" key={detail.id}>
+				<section className=" intro-page zz  " id="home" key={detail.id}>
 					<div className="decorations">
 						<div className="decor-dot2">
 							<img src={decor3} alt="" />
@@ -67,7 +67,7 @@ const Intro = () => {
 					</div>
 					<div className="small-intro ">
 						<div className="intro-row ">
-							<div className="col-lg-5     col-md-7 col-sm-12 intro-left ">
+							<div className="col-lg-6     col-md-6 col-sm-12 intro-left ">
 								<div className="intro-name">
 									<h3
 										className="hello text-center"
@@ -136,7 +136,7 @@ const Intro = () => {
 								</div>
 							</div>
 							<div
-								className="col-lg-7 col-md-6 col-sm-12 left-img "
+								className="col-lg-6 mb-4 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
 								<div style={{ maxWidth: "800px" }} className="ff  ">
 									{/* <img

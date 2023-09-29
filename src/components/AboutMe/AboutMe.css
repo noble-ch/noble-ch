@@ -303,9 +303,9 @@ i {
 	background: var(--color-button);
 }
 .imaag {
-	/* border-radius: 68% 32% 19% 81% / 31% 30% 70% 69%; */
-	/* background: linear-gradient(rgb(10, 5, 56), rgb(53, 0, 63)); */
+	/* border-radius: 68% 32% 0% 81% / 31% 30% 70% 69%; */
+	/* background: linear-gradient(rgb(16, 41, 31), rgb(53, 0, 63)); */
 	filter: hue-rotate(-10deg);
-  filter: brightness(70%)
+  filter: brightness(80%)
   
 }
