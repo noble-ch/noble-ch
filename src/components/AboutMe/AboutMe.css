@@ -47,9 +47,9 @@
 .about_myinfo{
 background: #1f251f34;
 border-radius: 10px;
-box-shadow: 0 0 20px rgb(17, 59, 30);
 padding: 10px;
 backdrop-filter: blur(10px);
+border: 0.5px solid rgb(20, 48, 20);
 }
 
 .about_myinfo::before{
@@ -59,7 +59,7 @@ backdrop-filter: blur(10px);
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: linear-gradient(50deg, transparent, rgba(27, 65, 35, 0.288) , transparent);
+	background: linear-gradient(50deg, transparent, rgba(13, 34, 33, 0.397) , transparent);
 	transition: .5s;
 	opacity: 0;
 	}
@@ -67,6 +67,8 @@ backdrop-filter: blur(10px);
 	.about_myinfo:hover::before{
 		/* left: 100%; */
 		opacity: 1;
+		box-shadow: 0 0 20px rgb(17, 59, 30);
+
 	}
 
 .about_description {

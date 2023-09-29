@@ -3,7 +3,7 @@
 	color: var(--color-info-light);
 	max-width: 100vw;
 	padding: 20px 50px;
-	background: #14042b;
+	background: var(--color-background-navbur);
 }
 .footer-info {
 	display: flex;
@@ -163,7 +163,7 @@
 
 /* light theme */
 .light .my-footer {
-	background: #5414ac;
+	background: var(--color-background-navbur);
 	color: #fff !important;
 }
 .light .copywrite p {

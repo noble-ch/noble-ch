@@ -8,6 +8,9 @@
   background:linear-gradient(to top left, rgb(8, 10, 22) 40%, rgb(13, 22, 13))  !important;
   /* background: none !important; */
 }
+.light .reachme-container{
+  background: rgb(255, 255, 255) !important;
+}
 .reachme-container .row {
   display: flex !important;
   justify-content: flex-start;

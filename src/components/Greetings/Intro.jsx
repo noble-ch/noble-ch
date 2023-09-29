@@ -1,7 +1,7 @@
 import decor3 from "../../images/decoration/Group-31.png";
 import Hero from "../Hero/Hero";
 import { useLottie } from "lottie-react";
-import deeloperAnimation from "../Hero/deeloperAnimation11.json";
+import deeloperAnimation from "../Hero/deeloperAnimation6.json";
 
 import "./Intro.css";
 
@@ -138,7 +138,7 @@ const Intro = () => {
 							<div
 								className="col-lg-6 mb-4 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
-								<div style={{ maxWidth: "fitContent" }} className="ff  img-fluid  ">
+								<div style={{ maxWidth: "fitContent" }} className=" anime  img-fluid  ">
 									{/* <img
 										className="intro-img"
 										src="./images/svg-gobbler.svg"

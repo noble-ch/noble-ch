@@ -21,7 +21,9 @@
 .small-intro {
 	opacity: 0.9 !important;
 }
-
+.anime{
+	filter: brightness(60%);
+}
 
 
 .decor-dot2 {
