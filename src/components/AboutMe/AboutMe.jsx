@@ -76,8 +76,7 @@ const AboutMe = () => {
 								</a>
 							</div> */}
 						</div>
-						<ParticlesBg type="lines"  bg={true} num={10} />
-
+						<ParticlesBg type="polygon" bg={true} num={15} />
 					</div>
 				</div>
 			</main>

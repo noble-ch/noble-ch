@@ -61,7 +61,7 @@ const Intro = () => {
 			{/* <ParallaxLayer sticky={{ start: 1, end: 3 }} > */}
 			{introData.map((detail) => (
 				<section className=" intro-page zz  " id="home" key={detail.id}>
-					<ParticlesBg color="#00f549" type="cobweb" bg={true} num={1} />
+					<ParticlesBg color="#00f549" type="cobweb" bg={true} num={10} />
 
 					<div className="decorations">
 						<div className="decor-dot2">
