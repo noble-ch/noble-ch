@@ -3,9 +3,7 @@ import Hero from "../Hero/Hero";
 import { useLottie } from "lottie-react";
 import deeloperAnimation from "../Hero/deeloperAnimation6.json";
 import ParticlesBg from "particles-bg";
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
-
-
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 import "./Intro.css";
 
@@ -59,11 +57,11 @@ const Intro = () => {
 
 	return (
 		<>
-		      {/* <Parallax pages={1}> */}
-			  {/* <ParallaxLayer sticky={{ start: 1, end: 3 }} > */}
+			{/* <Parallax pages={1}> */}
+			{/* <ParallaxLayer sticky={{ start: 1, end: 3 }} > */}
 			{introData.map((detail) => (
 				<section className=" intro-page zz  " id="home" key={detail.id}>
-											<ParticlesBg  color="#00f549" type="cobweb"  bg={true} num={50} />
+					<ParticlesBg color="#00f549" type="cobweb" bg={true} num={1} />
 
 					<div className="decorations">
 						<div className="decor-dot2">
@@ -74,10 +72,7 @@ const Intro = () => {
 					</div>
 
 					<div className="small-intro ">
-
 						<div className="intro-row ">
-						
-
 							<div className="col-lg-6     col-md-6 col-sm-12 intro-left ">
 								<div className="intro-name">
 									<h3
@@ -146,11 +141,13 @@ const Intro = () => {
 									</ul>
 								</div>
 							</div>
-							
+
 							<div
 								className="col-lg-6 mb-4 col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
-								<div style={{ maxWidth: "fitContent" }} className=" anime  img-fluid  ">
+								<div
+									style={{ maxWidth: "fitContent" }}
+									className=" anime  img-fluid  ">
 									{/* <img
 										className="intro-img"
 										src="./images/svg-gobbler.svg"
@@ -169,7 +166,7 @@ const Intro = () => {
 				</section>
 			))}
 			{/* </ParallaxLayer> */}
-			 {/* </Parallax> */}
+			{/* </Parallax> */}
 		</>
 	);
 };

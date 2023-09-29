@@ -448,7 +448,7 @@
 	}
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 320px) {
 }
 @media only screen and (max-width: 330px) {
 	.intro-page {
@@ -461,7 +461,7 @@
 	.intro-btns button {
 		width: 150px;
 		height: 30px;
-		margin: 0px 10px !important;
+		margin: 0px 0px !important;
 	}
 	.intro-left p {
 		margin-bottom: 0 !important;
