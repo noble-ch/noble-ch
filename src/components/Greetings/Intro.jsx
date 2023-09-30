@@ -85,7 +85,7 @@ const Intro = () => {
 										className="name text-center"
 										data-aos="fade-down"
 										data-aos-duration="1600">
-										Hey! My Name is
+										Hey! I Am
 									</h3>
 
 									<h3
