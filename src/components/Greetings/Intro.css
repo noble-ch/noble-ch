@@ -97,13 +97,13 @@
 	/* border: solid red !important; */
 }
 .intro-left .name {
-	font-size: 4rem;
+	font-size: 5rem;
 	margin-bottom: 15px;
 	font-weight: 700;
 }
 
 .intro-left .job {
-	font-size: 4rem;
+	font-size: 6rem;
 	margin-bottom: 10px !important;
 	font-weight: 800 !important;
 	color: var(--white);
