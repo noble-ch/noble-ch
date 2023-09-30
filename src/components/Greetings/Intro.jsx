@@ -11,7 +11,7 @@ const introData = [
 	{
 		id: 1,
 		job_title: "Software Developer",
-		name: "N o b l e  B i r u",
+		name: "Noble  Birgu",
 		par_inro: "I'm a passionate web developer...",
 		hireMe_link: "nobledarm@gmail.com",
 		avatar_img: "image_url_1.jpg"
