@@ -453,11 +453,6 @@
 	}
 }
 
-@media only screen and (max-width: 200px) and (max-width: 360px) {
-	.anime {
-		display: none !important;
-	}
-}
 @media only screen and (max-width: 370px) {
 	.intro-page {
 		width: 100vw !important;
@@ -559,3 +554,4 @@
 		padding: 0px auto;
 	}
 }
+
