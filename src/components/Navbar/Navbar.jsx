@@ -18,7 +18,7 @@ const Navbar = () => {
 								<div className=" logo mr-2 ">
 									<img
 										className=" m-2"
-										src="./images/noble-logo.png"
+										src="./favicon.png"
 										alt=""
 									/>
 								</div>

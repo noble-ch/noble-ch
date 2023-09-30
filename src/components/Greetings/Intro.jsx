@@ -3,7 +3,7 @@ import Hero from "../Hero/Hero";
 import { useLottie } from "lottie-react";
 import deeloperAnimation from "../Hero/deeloperAnimation6.json";
 import ParticlesBg from "particles-bg";
-// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import { Parallax} from "react-parallax";
 
 import "./Intro.css";
 
@@ -57,7 +57,10 @@ const Intro = () => {
 
 	return (
 		<>
-			{/* <Parallax pages={1}> */}
+			  {/* <Parallax
+      bgImage="./images/background8.jpg"
+      strength={300}
+    > */}
 			{/* <ParallaxLayer sticky={{ start: 1, end: 3 }} > */}
 			{introData.map((detail) => (
 				<section className=" intro-page zz  " id="home" key={detail.id}>

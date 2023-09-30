@@ -10,7 +10,7 @@ const AboutMe = () => {
 		<>
 			<main id="about">
 				<div className="aboutMe-container">
-					<ParticlesBg type="square" bg={true} num={1} />
+					<ParticlesBg type="square" bg={true} num={2} />
 
 					<div className="about-decor">
 						<div className="about-dots">

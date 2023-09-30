@@ -65,7 +65,7 @@ const Email = (e) => {
 			.then(
 				(result) => {
 					console.log(result.text);
-					setMessage("Message sent successfully!" + result.text);
+					setMessage("Message sent successfully!");
 				},
 				(error) => {
 					console.log(error.text);
@@ -149,6 +149,7 @@ const Email = (e) => {
 											sitekey="6Lcvh1IoAAAAAPKT2jxy74Z4liO7JySsYRPYxwY5"
 											onChange={handleRecaptchaChange}
 										/>
+									{message && <p>{message}</p>}
 
 										<button
 											disabled={!recaptchaValue}
@@ -157,7 +158,6 @@ const Email = (e) => {
 											Send Message
 										</button>
 									</div>
-									{message && <p>{message}</p>}
 								</div>
 							</form>
 						</div>

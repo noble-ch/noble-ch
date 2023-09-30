@@ -41,6 +41,7 @@ transition: .5s;
 }
 #header .logo:hover {
 	text-decoration: underline !important;
+	
 }
 #header .logo a {
 	color: var(--color-white) !important;
