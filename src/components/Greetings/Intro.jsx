@@ -83,7 +83,7 @@ const Intro = () => {
 									</h3>
 									<h3
 										className="name text-center"
-										data-aos="fade-down"
+										data-aos="fade-down"git 
 										data-aos-duration="1600">
 										Hey! I Am
 									</h3>

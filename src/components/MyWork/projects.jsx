@@ -5,11 +5,10 @@ import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 // import ParticlesBg from 'particles-bg'
 
-
 const projectData = [
 	{
 		id: 2,
-		Project_title: "e-commerce",
+		Project_title: "E-Commerce",
 		Project_info:
 			"a fully interactive e-commerce website where customers can access products , check product details, search products by name and discription,filter by price,category and brands, add to cart, place order , manage their order, and pay with chapa pyment system0 ",
 		about_avatar: "./images/ecomerece.jpeg",
@@ -20,7 +19,7 @@ const projectData = [
 	},
 	{
 		id: 3,
-		Project_title: " tik-tak toe against ai",
+		Project_title: " Tic-Tak Toe against ai",
 		Project_info:
 			"It is a game where you can play against an AI opponent that uses the minimax algorithm to make its moves. also have multiplayer option where users can play against each other ",
 		about_avatar: "./images/tik-tak-toe-game.jpeg",
@@ -41,7 +40,7 @@ const projectData = [
 	},
 	{
 		id: 4,
-		Project_title: "document Analysis and Ranking system",
+		Project_title: "Document Analysis and Ranking sgit ystem",
 		Project_info:
 			"The Word Frequency Counter GUI is a Java program that provides a graphical user interface for analyzing files and calculating word frequencies and TF-IDF values.Users can also search for specific terms and view the search results ranked by cosine similarity. ",
 		about_avatar: "./images/eecomerece.jpeg",
@@ -137,8 +136,6 @@ const Projects = () => {
 					))}
 				</OwlCarousel>
 			</div>
-
-
 		</div>
 	);
 };
