@@ -2,34 +2,35 @@
 import styled, { keyframes } from "styled-components";
 
 export const HeroContainer = styled.div`
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  display: flex;
-  flex-direction: column;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 
-  @media (min-width: 576px) {
-    max-width: 540px;
-  }
-  @media (min-width: 768px) {
-    max-width: 720px;
-  }
-  @media (min-width: 992px) {
-    max-width: 960px;
-  }
-  @media (min-width: 1200px) {
-    max-width: 1000px;
-  }
+	@media (min-width: 576px) {
+		max-width: 540px;
+	}
+	@media (min-width: 768px) {
+		max-width: 720px;
+	}
+	@media (min-width: 992px) {
+		max-width: 960px;
+	}
+	@media (min-width: 1200px) {
+		max-width: 1000px;
+	}
 `;
 
 export const HeroWrapper = styled.div`
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 
-  @media screen and (max-width: 992px) {
-    flex-direction: column;
-  }
+	@media screen and (max-width: 992px) {
+		flex-direction: column;
+	}
 `;
 
 export const HeroLeft = styled.div`
@@ -60,7 +61,7 @@ export const HeroLeft = styled.div`
     opacity: 0.85;
   }
 
-  @media screen and (max-width: 2000px) {
+  @media screen and (min-width: 50px) {
     text-align: center;
     align-items: center;
     padding : 0px auto ;
@@ -70,9 +71,6 @@ export const HeroLeft = styled.div`
       min-height: 0rem;
   }
 `;
-
-
-
 
 const ScrollAnimation = keyframes`
   0%,
@@ -89,5 +87,3 @@ const ScrollAnimation = keyframes`
     transform: translateY(-10px);
   }
 `;
-
-

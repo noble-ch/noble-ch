@@ -3,7 +3,7 @@ import Hero from "../Hero/Hero";
 import { useLottie } from "lottie-react";
 import deeloperAnimation from "../Hero/deeloperAnimation6.json";
 import ParticlesBg from "particles-bg";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+// import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 import "./Intro.css";
 
@@ -73,7 +73,7 @@ const Intro = () => {
 
 					<div className="small-intro ">
 						<div className="intro-row ">
-							<div className="col-lg-6  col-xl-6   col-md-6 col-sm-12 intro-left ">
+							<div className="col-lg-6  col-xl-6   col-md-6 col-sm-12 intro-left container-fluid  ">
 								<div className="intro-name">
 									<h3
 										className="hello text-center"
