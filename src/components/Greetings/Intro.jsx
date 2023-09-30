@@ -10,7 +10,7 @@ import "./Intro.css";
 const introData = [
 	{
 		id: 1,
-		job_title: "Web Developer",
+		job_title: "Software Developer",
 		name: "N o b l e  B i r u",
 		par_inro: "I'm a passionate web developer...",
 		hireMe_link: "nobledarm@gmail.com",
@@ -85,7 +85,7 @@ const Intro = () => {
 										className="name text-center"
 										data-aos="fade-down"
 										data-aos-duration="1600">
-										Hey! I Am
+										Hey! My Name is
 									</h3>
 
 									<h3
