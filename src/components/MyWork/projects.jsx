@@ -99,7 +99,7 @@ const Projects = () => {
 			<div className="project-row">
 				<OwlCarousel className="owl-theme" {...options}>
 					{projectData.map((details) => (
-						<div className="project" data-aos="fade-up" key={details.id}>
+						<div className="project " data-aos="fade-up" key={details.id}>
 							<div className="project-img">
 								<img src={details.about_avatar} alt="" className="work-img" />
 							</div>

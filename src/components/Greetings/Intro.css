@@ -4,7 +4,6 @@
 .intro-page {
 	position: relative;
 	z-index: 2;
-
 }
 .intro-page::after {
 	content: "";
@@ -22,10 +21,9 @@
 .small-intro {
 	opacity: 0.9 !important;
 }
-.anime{
+.anime {
 	filter: brightness(60%);
 }
-
 
 .decor-dot2 {
 	position: absolute;
@@ -172,7 +170,6 @@
 	box-shadow: 0 0 12px rgb(11, 216, 73);
 }
 
-
 .intro-left .intro-links {
 	display: flex;
 	margin-top: 40px;
@@ -315,12 +312,11 @@
 	margin-top: 50px;
 }
 @media (min-width: 1560px) {
-	.intro-btns .contact-me{
+	.intro-btns .contact-me {
 		margin-top: 30px;
 	}
 	.intro-img {
 		width: 40%;
-
 	}
 }
 
@@ -457,14 +453,30 @@
 	}
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 360px) and (min-width: 280px) {
+	.intro-page {
+		padding-top: 0px !important;
+	}
+	.myinfo {
+		margin: 0px auto !important;
+		padding: 0px auto !important;
+
+	}
+	.job {
+		margin-bottom: 0px !important;
+		padding: 0px !important;
+	}
+	.anime {
+		max-width: 300px;
+		display: flex;
+		justify-content: center;
+		padding: 0px auto;
+	}
 }
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 370px) {
 	.intro-page {
 		width: 100vw !important;
 		margin: 0 0 !important;
-		
-
 	}
 
 	.intro-btns button {
@@ -538,12 +550,27 @@
 	opacity: 0.2;
 }
 
-@media only screen and (max-width: 1400px){
-.intro-btns  {
-	margin-top: 25px;
+@media only screen and (max-width: 1400px) {
+	.intro-btns {
+		margin-top: 25px;
+	}
+	.intro-contact {
+		margin-top: 10px;
+	}
+}
 
-}
-.intro-contact{
-	margin-top: 10px;
-}
+@media only screen and (min-width: 440px) and (max-width: 890px) {
+	.intro-page {
+		padding-top: 0px !important;
+		/* border: solid red !important; */
+	}
+	.anime {
+		max-width: 400px;
+		display: flex;
+		justify-content: center;
+		padding: 0px auto;
+	}
+	.intro-name {
+		padding: 0px auto;
+	}
 }
