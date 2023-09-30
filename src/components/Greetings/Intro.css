@@ -144,6 +144,7 @@
 	color: var(--color-white);
 	border: 1px solid var(--color-title);
 	background: transparent;
+	margin-top: 20px;
 }
 .intro-left .intro-btns .contact-me {
 	margin-right: 30px;
@@ -401,6 +402,7 @@
 
 	.myinfo {
 		text-align: center !important;
+		height: 30px;
 	}
 	.job {
 		text-align: center;
@@ -411,6 +413,14 @@
 	}
 	.intro-btns .contact-me {
 	}
+
+	.anime{
+		width: 200px !important;
+		display: flex !important;
+		justify-content: center !important;
+		margin: 0 auto;
+	}
+
 }
 @media only screen and (max-width: 425px) {
 	.intro-img {
