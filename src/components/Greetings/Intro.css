@@ -414,13 +414,12 @@
 	.intro-btns .contact-me {
 	}
 
-	.anime{
+	.anime {
 		width: 200px !important;
 		display: flex !important;
 		justify-content: center !important;
 		margin: 0 auto;
 	}
-
 }
 @media only screen and (max-width: 425px) {
 	.intro-img {
@@ -564,4 +563,3 @@
 		padding: 0px auto;
 	}
 }
-
