@@ -414,14 +414,9 @@
 	.intro-btns .contact-me {
 	}
 
-	.anime {
-		width: 200px !important;
-		display: flex !important;
-		justify-content: center !important;
-		margin: 0 auto;
-	}
+	
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 450px) {
 	.intro-img {
 		width: 100% !important;
 	}
@@ -433,6 +428,7 @@
 	}
 	.intro-btns button {
 		width: 160px !important;
+		margin-top: 0px !important;
 	}
 	.intro-btns .contact-me {
 		margin-left: 0 !important;
@@ -440,11 +436,9 @@
 	.myinfo {
 		margin-bottom: 30px;
 	}
-	.contact-me {
+	.job{
 	}
-	.intro-btns {
-		margin-left: 40px;
-	}
+	
 	.intro-contact {
 		margin-top: 10px;
 		display: flex;
@@ -452,22 +446,27 @@
 		justify-content: center !important;
 		align-items: center;
 	}
-}
-@media only screen and (max-width: 420px) {
-	.intro-btns .contact-me {
-		margin-right: 0 !important;
-	}
-	.intro-btns {
-		margin-left: 10px;
+	.anime {
+		width: 300px !important;
+		margin: auto !important;
 	}
 }
+
 
 @media only screen and (max-width: 370px) {
 	.intro-page {
 		width: 100vw !important;
 		margin: 0 0 !important;
 	}
-
+	.intro-btns .contact-me {
+		margin-right: 0 !important;
+	}
+	.intro-btns {
+	}
+	.anime {
+		width: 340px !important;
+		margin: auto !important;
+	}
 	.intro-btns button {
 		width: 150px;
 		height: 30px;
@@ -478,6 +477,14 @@
 	}
 	.intro-img {
 		width: 100% !important;
+	}
+}
+
+@media only screen and (max-height: 640px) {
+	.anime {
+		width: 200px !important;
+		height: 250px !important;
+		margin:  auto !important;
 	}
 }
 
