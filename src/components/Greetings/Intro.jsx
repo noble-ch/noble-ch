@@ -73,7 +73,7 @@ const Intro = () => {
 
 					<div className="small-intro ">
 						<div className="intro-row ">
-							<div className="col-lg-6     col-md-6 col-sm-12 intro-left ">
+							<div className="col-lg-6  col-xl-6   col-md-6 col-sm-12 intro-left ">
 								<div className="intro-name">
 									<h3
 										className="hello text-center"
@@ -126,7 +126,7 @@ const Intro = () => {
 									data-aos-duration="1800">
 									<span className="text-center">Follow Me:</span>
 									<ul>
-										<li className=" d-flex justify-content-center  ">
+										<li className="socio-list d-flex justify-content-center  ">
 											{contactDetails.map((data1) => (
 												<a
 													href={data1.link}
@@ -143,7 +143,7 @@ const Intro = () => {
 							</div>
 
 							<div
-								className="col-lg-6 mb-4 col-md-6 col-sm-12 left-img "
+								className="col-lg-6 mb-4 col-xl-6  col-md-6 col-sm-12 left-img "
 								data-aos="fade-down-left">
 								<div
 									style={{ maxWidth: "fitContent" }}
