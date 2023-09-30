@@ -9,9 +9,8 @@ const AboutMe = () => {
 	return (
 		<>
 			<main id="about">
-
 				<div className="aboutMe-container">
-				<ParticlesBg type="square" bg={true} num={5} />
+					<ParticlesBg type="square" bg={true} num={1} />
 
 					<div className="about-decor">
 						<div className="about-dots">

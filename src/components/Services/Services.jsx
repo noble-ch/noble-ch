@@ -7,7 +7,7 @@ const serviceData = [
 		service_name: "Web Development",
 		service_description:
 			"Custom web application development using modern technologies.",
-		icon_image: "web-development-icon.png",
+		icon_image: "./images/web-dev.svg",
 		shadow_icon: "fa fa-web"
 	},
 	{
@@ -15,7 +15,7 @@ const serviceData = [
 		service_name: "Mobile App Development",
 		service_description:
 			"Cross-platform mobile app development for iOS and Android.",
-		icon_image: "mobile-app-icon.png",
+		icon_image: "./images/monile-dev.svg",
 		shadow_icon: "fa fa-mobile"
 	},
 	{
@@ -23,7 +23,7 @@ const serviceData = [
 		service_name: "Api Integration",
 		service_description:
 			"integrate with variety of apis, like google,OpenAi,Spotify,automated email service",
-		icon_image: "mobile-app-icon.png",
+		icon_image: "./images/api.svg",
 		shadow_icon: "fa fa-mobile"
 	}
 	// Add more services as needed
@@ -48,7 +48,7 @@ const Services = () => {
 								data-aos="zoom-in-up"
 								data-aos-duration="1500">
 								<div className="ser-back">
-									<img src={service.icon_image} alt="" />
+									<img style={{width:'5rem'}} src={service.icon_image} alt="" />
 								</div>
 								<h4 className="web">{service.service_name}</h4>
 								<p className="service-info">{service.service_description}</p>

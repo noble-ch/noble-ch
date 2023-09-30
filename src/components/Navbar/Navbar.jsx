@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Main from "./nav";
-import GoogleTranslateComponent from "../GoogleTranslateComponent";
+// import GoogleTranslateComponent from "../GoogleTranslateComponent";
 
 const Navbar = () => {
 	return (
@@ -53,7 +53,7 @@ const Navbar = () => {
 									</li>
 									<li data-aos="fade-down" data-aos-duration="2100">
 										<div className=" translate">
-											<GoogleTranslateComponent />
+											{/* <GoogleTranslateComponent /> */}
 										</div>
 									</li>
 								</ul>
