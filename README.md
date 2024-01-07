@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **computer science and engineering in Adama Science and Technology University**
 
-- 📫 How to reach me **nobledarm@gmail.com**
+- 📫 How to reach me **noblebarch@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
