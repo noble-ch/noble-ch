@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on blango blog webapp<br>🌱 I’m currently learning machine learning and AI<br>💬 Ask me about webDev network <br>
+🔭 I’m currently working on Web Dev<br>🌱 I’m currently learning machine learning and AI<br>💬 Ask me about webDev network <br>
 
 
 ## 🌐 Socials:
