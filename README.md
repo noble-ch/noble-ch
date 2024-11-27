@@ -1,6 +1,11 @@
-# 💫 About Me:
-🔭 I’m currently working on Web Dev<br>🌱 I’m currently learning machine learning and AI<br>💬 Ask me about webDev network <br>
+# 💫 Who Me:
 
+```python
+# Web Dev Enthusiast 🚀 | AI Explorer 🤖
+
+print("Currently crafting seamless web experiences while training my neural network to learn Machine Learning and AI!")
+
+```
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/noble_ch) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/noble-ch) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/@noblebiru) 
@@ -16,4 +21,3 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=noble-ch&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages" width="400">
 </p>
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
