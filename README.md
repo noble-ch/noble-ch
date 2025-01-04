@@ -3,7 +3,11 @@
 ```python
 # Web Dev Enthusiast 🚀 | AI Explorer 🤖
 
-present = "Currently crafting seamless web experiences while training my neural network to learn Machine Learning and AI!"
+present = '''
+              Currently crafting seamless web experiences
+              while training my neural network
+              to learn Machine Learning and AI
+          '''
 
 ```
 
