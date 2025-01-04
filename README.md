@@ -3,12 +3,20 @@
 ```python
 # Web Dev Enthusiast 🚀 | AI Explorer 🤖
 
-present = '''
-              Currently crafting seamless web experiences
-              while training my neural network
-              to learn Machine Learning and AI
-          '''
+def present():
+  """
+  This function represents the user's passion for web development and AI.
+  It uses a loop to simulate the ongoing effort in both fields.
+  """
+  web_dev_active = True
+  learning_ai = True 
 
+  while learning_ai: 
+      print("Building seamless web experiences (current task: learning new front-end frameworks)")
+      print("Training my neural network to learn Machine Learning and AI (current focus: Deep Learning)")
+
+if __name__ == "__main__":
+    present()
 ```
 
 ## 🌐 Socials:
